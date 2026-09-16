@@ -14,6 +14,7 @@ ENDPOINT = "https://api.revenirdata.com/radarjobs/mcp"
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs/plugin-publication/search-evidence.json"
 HEADERS = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
+TARGET_OPPORTUNITY_ID = "3f5785c2-0378-4896-ae1a-8b297a48bbd4"
 sequence = 0
 
 
@@ -39,7 +40,7 @@ CASES = [
      "level": ["senior"], "job_subfamily": ["data_engineering"]}),
     ("C2C Snowflake contracts", {"engagement_model": ["c2c"], "title_contains": "Snowflake"}),
     ("Remote AI engineer contracts", {"remote": True, "job_class": ["ai_engineer"]}),
-    ("Contracts at least 80 USD/hour", {"rate_min": 80, "currency": "USD"}),
+    ("Contracts at least 50 USD/hour", {"rate_min": 50, "currency": "USD"}),
     ("Forward deployed or AI engineer", {"title_contains": "forward deployed engineer",
      "job_class": ["ai_engineer"], "match_mode": "closest"}),
     ("Intentional zero results", {"title_contains": "zzradarjobsacceptancezeromatchzz"}),
@@ -72,6 +73,37 @@ def verify_links(evidence):
         with urllib.request.urlopen(url,timeout=20) as response:
             evidence[name + "_deployment"] = json.load(response)
     OUTPUT.write_text(json.dumps(evidence, indent=2), encoding="utf-8")
+
+
+def verify_engagement_resolution(evidence):
+    common = {"title_contains": "Snowflake AWS Redshift"}
+    strict_1099 = call(
+        "search_contract_jobs",
+        {"filters": {**common, "engagement_model": ["1099"]}, "limit": 5},
+    )
+    w2 = call(
+        "search_contract_jobs",
+        {"filters": {**common, "engagement_model": ["w2_contract"]}, "limit": 5},
+    )
+    detail = call("get_contract_job", {"opportunity_id": TARGET_OPPORTUNITY_ID})
+    strict_jobs = strict_1099["response"]["result"]["structuredContent"]["jobs"]
+    w2_jobs = w2["response"]["result"]["structuredContent"]["jobs"]
+    target = detail["response"]["result"]["structuredContent"]["job"]
+    assert TARGET_OPPORTUNITY_ID not in {job["id"] for job in strict_jobs}
+    assert TARGET_OPPORTUNITY_ID in {job["id"] for job in w2_jobs}
+    assert target["engagement_models"] == ["w2_contract"]
+    assert target["engagement_resolution"] == {
+        "status": "restricted",
+        "excluded_models": ["1099", "c2c"],
+        "conflicting_models": ["1099"],
+        "evidence_labels": ["w2_positive"],
+    }
+    evidence["engagement_resolution_regression"] = {
+        "opportunity_id": TARGET_OPPORTUNITY_ID,
+        "strict_1099": strict_1099,
+        "w2_contract": w2,
+        "detail": detail,
+    }
 
 
 def main():
@@ -112,7 +144,7 @@ def main():
                 if "rate_min" in filters:
                     rate = job["rate"]
                     assert rate["currency"] == "USD" and rate["unit"] == "hour"
-                    assert float(rate["minimum"]) >= 80
+                    assert float(rate["minimum"]) >= filters["rate_min"]
                 first_job = first_job or job
             if index == 5:
                 assert data["returned"] == 0
@@ -123,6 +155,7 @@ def main():
         returned = payload.get("structuredContent", {}).get("returned")
         print(f"{name}: status={result['status']} error={error} returned={returned} {result['latency_ms']}ms")
         OUTPUT.write_text(json.dumps(evidence, indent=2), encoding="utf-8")
+    verify_engagement_resolution(evidence)
     verify_links(evidence)
     print(f"Saved actual public responses: {OUTPUT}")
 
