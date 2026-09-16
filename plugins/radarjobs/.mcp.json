@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "radarjobs": {
+      "type": "http",
+      "url": "https://api.revenirdata.com/radarjobs/mcp"
+    }
+  }
+}

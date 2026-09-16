@@ -1,0 +1,20 @@
+{
+  "name": "revenir",
+  "interface": {
+    "displayName": "Revenir"
+  },
+  "plugins": [
+    {
+      "name": "radarjobs",
+      "source": {
+        "source": "local",
+        "path": "./plugins/radarjobs"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "privacy": {
+    "status": 200,
+    "final_url": "https://www.revenirdata.com/privacy",
+    "revenir": true,
+    "plugin_disclosure": true,
+    "placeholder_contact": false
+  },
+  "terms": {
+    "status": 200,
+    "final_url": "https://www.revenirdata.com/terms",
+    "revenir": true,
+    "plugin_disclosure": true,
+    "placeholder_contact": false
+  },
+  "contact": {
+    "status": 200,
+    "final_url": "https://www.revenirdata.com/consultation",
+    "revenir": true,
+    "plugin_disclosure": true,
+    "placeholder_contact": false
+  },
+  "website_build": {
+    "service": "revenir-website",
+    "build_sha": "6eae2e0707fd3f490156f216146be5da94b23d72",
+    "deployment_environment": "production"
+  }
+}

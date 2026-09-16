@@ -1,0 +1,19 @@
+{
+  "verification": "Codex app-server plugin/read",
+  "installed": true,
+  "enabled": true,
+  "version": "1.0.0+codex.20260916111144",
+  "display_name": "RadarJobs",
+  "description": "Search live contract tech jobs across sources.",
+  "developer": "Revenir",
+  "icon_exists": true,
+  "screenshots_count": 2,
+  "screenshots_exist": true,
+  "skills": [
+    "radarjobs:contract-tech-search"
+  ],
+  "mcp_servers": [
+    "radarjobs"
+  ],
+  "visual_ui_verified": false
+}
