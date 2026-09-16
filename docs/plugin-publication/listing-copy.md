@@ -53,4 +53,6 @@ the public package does not claim unrestricted worldwide employment eligibility.
 
 Initial anonymous contract-tech discovery integration. Three tools, five-result
 limit, source evidence, title-only closest matching, safe Revenir links and existing
-campaign attribution. Minimal operational telemetry; no additional model inference.
+campaign attribution. Explicit engagement-evidence conflict resolution prevents
+W-2-only opportunities from appearing in strict 1099 or C2C searches. Minimal
+operational telemetry; no additional model inference.

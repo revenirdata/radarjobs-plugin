@@ -43,6 +43,14 @@ overwrites the client identity header; arbitrary X-Forwarded-For cannot rotate i
 Unavailable metering fails closed. Distributed abuse is bounded by the global
 budget; no claim of perfect prevention is made.
 
+The current acquisition surface still has a cumulative-enumeration limitation:
+repeated, varied targeted searches can expose more unique public jobs over time
+than one broad recent-2,000 preview, even though each response, network window and
+global budget is bounded. This release intentionally keeps that public policy.
+Unique-job exposure caps, a recent-2,000 restriction for targeted searches,
+detail-to-search binding, and additional public HTML or sitemap restrictions are
+separate product-policy work and are not represented as implemented here.
+
 ## Phase 2
 
 Personalization would require a separately reviewed standards-compliant provider

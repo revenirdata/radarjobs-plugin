@@ -11,14 +11,14 @@ API key, cookies, test inventory or additional LLM inference was used.
 
 | Request | Actual result | Tool latency |
 |---|---|---|
-| Remote 1099 senior data engineering | 5 live normalized matches | 919 ms |
-| C2C Snowflake contracts | 4 live normalized matches | 1,420 ms |
-| Remote AI engineer contracts | 5 live normalized matches | 1,197 ms |
-| At least 80 USD/hour | 1 match in disclosed recent-2,000 preview | 947 ms |
-| Forward deployed engineer or AI engineer | 5 exact matches; no relaxation needed | 761 ms |
-| Deliberately nonexistent title | 0 results | 1,207 ms |
-| Unsupported `skills` field | Validation error, no invented filter | 492 ms |
-| Permanent nursing job | Validation error, outside contract-tech scope | 457 ms |
+| Remote 1099 senior data engineering | 5 live normalized matches | 940 ms |
+| C2C Snowflake contracts | 4 live normalized matches | 1,525 ms |
+| Remote AI engineer contracts | 5 live normalized matches | 1,573 ms |
+| At least 50 USD/hour | 5 matches in disclosed recent-2,000 preview | 1,492 ms |
+| Forward deployed engineer or AI engineer | 5 exact matches; no relaxation needed | 868 ms |
+| Deliberately nonexistent title | 0 results | 1,482 ms |
+| Unsupported `skills` field | Validation error, no invented filter | 485 ms |
+| Permanent nursing job | Validation error, outside contract-tech scope | 503 ms |
 
 Initialization, `tools/list`, taxonomy and detail were exercised over real HTTP.
 The returned surface contains exactly `search_contract_jobs`, `get_contract_job`
@@ -27,10 +27,23 @@ status, requested contract/remote filters, hourly USD rates, preserved role
 filters during title relaxation, and fixed-origin campaign links.
 
 These are normalized inventory matches, not independently verified hiring
-eligibility. One returned record contains W-2-only evidence alongside a 1099
-label. The skill explicitly requires surfacing such conflicts and preserving
-uncertainty. The complete raw matrix is retained, including thin source titles;
+eligibility. The complete raw matrix is retained, including thin source titles;
 the listing examples show three selected real records per request.
+
+## Engagement-evidence correctness regression
+
+Production opportunity `3f5785c2-0378-4896-ae1a-8b297a48bbd4` was checked with
+the exact anonymous plugin surface after deployment. A strict 1099 query returned
+zero matches in 1,278 ms. The corresponding W-2 contract query returned exactly
+that opportunity in 1,641 ms. Plugin detail returned it in 574 ms with only
+`w2_contract` and a `restricted` engagement resolution excluding `1099` and
+`c2c`. The anonymous web/API detail returned the same engagement models,
+resolution, exclusion and evidence label, and its public HTML route returned 200.
+
+The normal contract acceptance searches remained healthy: the broader 1099 case
+returned five live matches and the C2C Snowflake case returned four. The raw
+targeted queries and responses are retained under `engagement_resolution_regression`
+in `search-evidence.json`.
 
 ## Result links and attribution
 
@@ -45,13 +58,12 @@ records final HTTP status, rendered title, signup CTA, unchanged opportunity ID,
 attributed URL and deployment identifiers in `search-evidence.json`.
 
 All five links passed: HTTP 200, correct rendered title and signup CTA, with
-214–1,155 ms website responses. Two direct backend detail reads completed in
-973 ms and 1,609 ms after the fix. A real Snowflake result was also opened in
+225–1,362 ms website responses. A real Snowflake result was also opened in
 the background browser and showed the correct job, contract type, source, CTA
 and retained campaign URL.
 
-Final backend production SHA: `d6e2c7652b8702e7131e1d05fd09bf883e6e47e6`.
-[Deployment run 35089121077](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35089121077) completed successfully.
+Final backend production SHA: `159b9eb93fcee1f9000ca085f532cfd3f4e155aa`.
+[Deployment run 35100822967](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35100822967) completed successfully and `/readyz` returned the same build SHA.
 
 Website tests verify the exact `openai / plugin / radarjobs_codex` campaign and
 public-job/landing paths, using existing first/latest-touch and signup attribution.
@@ -60,10 +72,11 @@ No fake user signup or customer account was created for acceptance.
 ## Repository checks
 
 - Backend PRs [#329](https://github.com/revenirdata/revenir-radar-backend/pull/329),
-  [#330](https://github.com/revenirdata/revenir-radar-backend/pull/330), and
-  [#331](https://github.com/revenirdata/revenir-radar-backend/pull/331).
-- Final backend CI: **1,058 passed, 1 skipped**, with PostgreSQL;
-  [run 35088678425](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35088678425).
+  [#330](https://github.com/revenirdata/revenir-radar-backend/pull/330),
+  [#331](https://github.com/revenirdata/revenir-radar-backend/pull/331), and
+  correctness fix [#332](https://github.com/revenirdata/revenir-radar-backend/pull/332).
+- Final backend CI: **1,092 passed, 1 skipped**, with PostgreSQL;
+  [run 35099095233](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35099095233).
   Ruff, repository boundaries, public developer contract, migrations, production
   image and Run Inspector build passed. The earlier plugin-only release CI passed
   1,057 tests; the additional regression verifies bounded related previews.

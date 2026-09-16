@@ -9,6 +9,8 @@
 - [x] Fixed Revenir result links with existing UTM attribution.
 - [x] Privacy/data-flow, support and acceptable-use information prepared.
 - [x] Positive and negative test definitions supplied; actual outcomes in test evidence.
+- [x] Production engagement-evidence correction deployed and cross-surface regression recorded.
+- [x] Current anonymous policy and cumulative-enumeration limitation documented accurately.
 - [ ] Revenir organization login, verified identity and Apps Management: Write confirmed in portal.
 - [ ] Portal-issued domain challenge, if requested, completed and verified.
 - [ ] Launch countries and final attestations selected by authorized owner.

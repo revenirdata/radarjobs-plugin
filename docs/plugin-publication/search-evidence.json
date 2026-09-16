@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-16T10:59:50.578775+00:00",
+  "checked_at": "2026-09-16T13:25:49.713828+00:00",
   "endpoint": "https://api.revenirdata.com/radarjobs/mcp",
   "authentication": "none",
   "cases": [
@@ -21,14 +21,14 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 919,
+      "latency_ms": 940,
       "response": {
         "jsonrpc": "2.0",
         "id": 4,
         "result": {
           "content": [
             {
-              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"3f5785c2-0378-4896-ae1a-8b297a48bbd4\",\n      \"title\": \"Senior Data Engineer \u2013 Snowflake & AWS Redshift\",\n      \"employer\": \"NimbusAITech LLC\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"55\",\n        \"maximum\": \"65\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T18:24:51+00:00\",\n      \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T08:40:04.483050+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_negative\",\n          \"label\": \"w2_positive\",\n          \"excerpt\": \"a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"dd1ae4a4-6c4b-4eba-88e8-34836b823219\",\n      \"title\": \"Sr data Engineer\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T13:22:11.894000+00:00\",\n      \"first_seen\": \"2026-09-15T13:29:17.054334+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T13:58:09.118392+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/dd1ae4a4-6c4b-4eba-88e8-34836b823219/sr-data-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"38e5e391-0a4e-4684-a668-8b2802ed1903\",\n      \"title\": \"Production-Ready Data Intelligence Platform\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"250\",\n        \"maximum\": \"250\",\n        \"currency\": \"USD\",\n        \"unit\": \"project\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T13:15:37.890000+00:00\",\n      \"first_seen\": \"2026-09-15T13:29:17.054334+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T13:58:13.992007+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Fixed-price freelance project Production-Ready Data Intelligence Platform Senior Full-Stack Developer \u2014 Production-Ready Data Int\"\n        },\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Fixed-price freelance project\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/38e5e391-0a4e-4684-a668-8b2802ed1903/production-ready-data-intelligence-platform?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"b3c190f8-c92c-4bcc-bcfd-137f2818c6de\",\n      \"title\": \"Senior Data Engineer (Snowflake)\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"30\",\n        \"maximum\": \"40\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T07:06:07.789000+00:00\",\n      \"first_seen\": \"2026-09-15T07:14:03.559905+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T07:43:08.865778+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/b3c190f8-c92c-4bcc-bcfd-137f2818c6de/senior-data-engineer-snowflake?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"6b50d84b-73a2-4d6e-8e70-8fd4cc186366\",\n      \"title\": \"Senior Data Engineer\",\n      \"employer\": \"RIIASH LLC\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"55\",\n        \"maximum\": \"57\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-14T23:55:19+00:00\",\n      \"first_seen\": \"2026-09-15T06:39:09.287274+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T08:40:09.415681+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/6b50d84b-73a2-4d6e-8e70-8fd4cc186366/senior-data-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [\n      \"data_engineering\"\n    ],\n    \"job_class\": [],\n    \"normalized_title\": \"\",\n    \"level\": [\n      \"senior\"\n    ],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": true,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": false,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"a343e351-204f-4c87-928b-11b4076bfc17\",\n      \"title\": \"Senior AI Developer (Snowflake Cortex AI)\",\n      \"employer\": \"Spar Information Systems\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"US\",\n        \"remote\": true,\n        \"country\": \"US\",\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T20:31:10+00:00\",\n      \"first_seen\": \"2026-09-15T15:42:55.550723+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:05:42.114928+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/a343e351-204f-4c87-928b-11b4076bfc17/senior-ai-developer-snowflake-cortex-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"dd1ae4a4-6c4b-4eba-88e8-34836b823219\",\n      \"title\": \"Sr data Engineer\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T13:22:11.894000+00:00\",\n      \"first_seen\": \"2026-09-15T13:29:17.054334+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T13:58:09.118392+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/dd1ae4a4-6c4b-4eba-88e8-34836b823219/sr-data-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"38e5e391-0a4e-4684-a668-8b2802ed1903\",\n      \"title\": \"Production-Ready Data Intelligence Platform\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"250\",\n        \"maximum\": \"250\",\n        \"currency\": \"USD\",\n        \"unit\": \"project\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T13:15:37.890000+00:00\",\n      \"first_seen\": \"2026-09-15T13:29:17.054334+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T13:58:13.992007+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Fixed-price freelance project Production-Ready Data Intelligence Platform Senior Full-Stack Developer \u2014 Production-Ready Data Int\"\n        },\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Fixed-price freelance project\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/38e5e391-0a4e-4684-a668-8b2802ed1903/production-ready-data-intelligence-platform?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"b3c190f8-c92c-4bcc-bcfd-137f2818c6de\",\n      \"title\": \"Senior Data Engineer (Snowflake)\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"30\",\n        \"maximum\": \"40\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T07:06:07.789000+00:00\",\n      \"first_seen\": \"2026-09-15T07:14:03.559905+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T07:43:08.865778+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/b3c190f8-c92c-4bcc-bcfd-137f2818c6de/senior-data-engineer-snowflake?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"6b50d84b-73a2-4d6e-8e70-8fd4cc186366\",\n      \"title\": \"Senior Data Engineer\",\n      \"employer\": \"RIIASH LLC\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"55\",\n        \"maximum\": \"57\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-14T23:55:19+00:00\",\n      \"first_seen\": \"2026-09-15T06:39:09.287274+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T08:40:09.415681+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/6b50d84b-73a2-4d6e-8e70-8fd4cc186366/senior-data-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [\n      \"data_engineering\"\n    ],\n    \"job_class\": [],\n    \"normalized_title\": \"\",\n    \"level\": [\n      \"senior\"\n    ],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": true,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": false,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
               "type": "text"
             }
           ],
@@ -36,14 +36,14 @@
           "structuredContent": {
             "jobs": [
               {
-                "id": "3f5785c2-0378-4896-ae1a-8b297a48bbd4",
-                "title": "Senior Data Engineer \u2013 Snowflake & AWS Redshift",
-                "employer": "NimbusAITech LLC",
+                "id": "a343e351-204f-4c87-928b-11b4076bfc17",
+                "title": "Senior AI Developer (Snowflake Cortex AI)",
+                "employer": "Spar Information Systems",
                 "intermediary": null,
                 "location": {
-                  "text": null,
+                  "text": "US",
                   "remote": true,
-                  "country": null,
+                  "country": "US",
                   "region": null,
                   "city": null
                 },
@@ -52,14 +52,15 @@
                   "1099",
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
-                "rate": {
-                  "minimum": "55",
-                  "maximum": "65",
-                  "currency": "USD",
-                  "unit": "hour"
-                },
+                "rate": null,
                 "job_family": "data",
                 "job_subfamily": "data_engineering",
                 "job_class": "data_platform_engineer",
@@ -71,23 +72,18 @@
                     "slug": "catalog-b8494c27eab22a08"
                   }
                 ],
-                "published_at": "2026-09-15T18:24:51+00:00",
-                "first_seen": "2026-09-15T19:47:22.741325+00:00",
-                "last_verified_live_at": "2026-09-16T08:40:04.483050+00:00",
+                "published_at": "2026-09-15T20:31:10+00:00",
+                "first_seen": "2026-09-15T15:42:55.550723+00:00",
+                "last_verified_live_at": "2026-09-16T13:05:42.114928+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
-                    "kind": "explicit_negative",
-                    "label": "w2_positive",
-                    "excerpt": "a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin"
-                  },
-                  {
-                    "kind": "insufficient",
-                    "label": "generic_contract",
-                    "excerpt": "Contract"
+                    "kind": "source_policy_inferred",
+                    "label": "general_job_board_contract_default",
+                    "excerpt": "dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract."
                   }
                 ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/a343e351-204f-4c87-928b-11b4076bfc17/senior-ai-developer-snowflake-cortex-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
               },
               {
                 "id": "dd1ae4a4-6c4b-4eba-88e8-34836b823219",
@@ -105,6 +101,12 @@
                 "engagement_models": [
                   "1099"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -148,6 +150,12 @@
                 "engagement_models": [
                   "1099"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
@@ -201,6 +209,12 @@
                 "engagement_models": [
                   "1099"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
@@ -250,6 +264,12 @@
                   "1099",
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
@@ -346,14 +366,14 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 1420,
+      "latency_ms": 1525,
       "response": {
         "jsonrpc": "2.0",
         "id": 5,
         "result": {
           "content": [
             {
-              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"34eb1dca-f5fd-4c7b-8790-5103ccb5b8d6\",\n      \"title\": \"Snowflake Data Architect - New York , NY -Face to Face Round of Interview\",\n      \"employer\": \"Advent Global Solutions, Inc.\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"New York, New York, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"New York\",\n        \"city\": \"New York\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\",\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T20:42:08+00:00\",\n      \"first_seen\": \"2026-09-15T21:43:23.528742+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T07:09:59.600969+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"C2C : $55-60/hr\"\n        },\n        {\n          \"kind\": \"explicit_negative\",\n          \"label\": \"w2_positive\",\n          \"excerpt\": \"W2 : $50-55/hr\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract, Third Party\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/34eb1dca-f5fd-4c7b-8790-5103ccb5b8d6/snowflake-data-architect-new-york-ny-face-to-face-round-of-interview?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"ff44974e-8d74-443d-80fe-8469bd80afc5\",\n      \"title\": \"Snowflake Data Engineer\",\n      \"employer\": \"FUSTIS LLC\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Boston, MA\",\n        \"remote\": null,\n        \"country\": \"MA\",\n        \"region\": \"Boston\",\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\",\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"LinkedIn\",\n          \"slug\": \"catalog-68c1e55b7e754991\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T00:00:00+00:00\",\n      \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T19:54:18.011518+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"ata Engineer Location: Boston, MA (Preferred) or Tampa, FL (Hybrid Onsite) Pay Rate: $60-$65/hr. on C2C/1099 or $54/hr. on W2 Eligibility: US Citizens, GC, GC-EAD, H4-EAD, L2S only Responsibilities Overall 7+\"\n        },\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"contractor_1099_positive\",\n          \"excerpt\": \"ata Engineer Location: Boston, MA (Preferred) or Tampa, FL (Hybrid Onsite) Pay Rate: $60-$65/hr. on C2C/1099 or $54/hr. on W2 Eligibility: US Citizens, GC, GC-EAD, H4-EAD, L2S only Responsibilities Overall 7+\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/ff44974e-8d74-443d-80fe-8469bd80afc5/snowflake-data-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"daed9ca8-3a81-4951-b2c4-f96a01e89b9e\",\n      \"title\": \"Snowflake Architect Banking Domain\",\n      \"employer\": \"Data Systems Integration Group\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\",\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-11T13:21:38+00:00\",\n      \"first_seen\": \"2026-09-11T14:40:50.176284+00:00\",\n      \"last_verified_live_at\": \"2026-09-14T11:40:25.711353+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"Engagement: C2C / Contract\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Third Party, Contract\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"C2C / Contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/daed9ca8-3a81-4951-b2c4-f96a01e89b9e/snowflake-architect-banking-domain?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"04cd39d5-2b46-403b-a46c-55e244ea99cf\",\n      \"title\": \"Senior Python Developer with Snowflake\",\n      \"employer\": \"PETADATA\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Rollingwood, Texas, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"Texas\",\n        \"city\": \"Rollingwood\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-09T20:50:50+00:00\",\n      \"first_seen\": \"2026-09-09T21:41:25.278640+00:00\",\n      \"last_verified_live_at\": \"2026-09-13T07:58:11.565881+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"Work type: C2C\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/04cd39d5-2b46-403b-a46c-55e244ea99cf/senior-python-developer-with-snowflake?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 4,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [],\n    \"normalized_title\": \"snowflake\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"c2c\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": false,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"34eb1dca-f5fd-4c7b-8790-5103ccb5b8d6\",\n      \"title\": \"Snowflake Data Architect - New York , NY -Face to Face Round of Interview\",\n      \"employer\": \"Advent Global Solutions, Inc.\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"New York, New York, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"New York\",\n        \"city\": \"New York\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T20:42:08+00:00\",\n      \"first_seen\": \"2026-09-15T21:43:23.528742+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T11:42:12.728397+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"C2C : $55-60/hr\"\n        },\n        {\n          \"kind\": \"explicit_negative\",\n          \"label\": \"w2_positive\",\n          \"excerpt\": \"W2 : $50-55/hr\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract, Third Party\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/34eb1dca-f5fd-4c7b-8790-5103ccb5b8d6/snowflake-data-architect-new-york-ny-face-to-face-round-of-interview?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"ff44974e-8d74-443d-80fe-8469bd80afc5\",\n      \"title\": \"Snowflake Data Engineer\",\n      \"employer\": \"FUSTIS LLC\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Boston, MA\",\n        \"remote\": null,\n        \"country\": \"MA\",\n        \"region\": \"Boston\",\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\",\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"LinkedIn\",\n          \"slug\": \"catalog-68c1e55b7e754991\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T00:00:00+00:00\",\n      \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T19:54:18.011518+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"ata Engineer Location: Boston, MA (Preferred) or Tampa, FL (Hybrid Onsite) Pay Rate: $60-$65/hr. on C2C/1099 or $54/hr. on W2 Eligibility: US Citizens, GC, GC-EAD, H4-EAD, L2S only Responsibilities Overall 7+\"\n        },\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"contractor_1099_positive\",\n          \"excerpt\": \"ata Engineer Location: Boston, MA (Preferred) or Tampa, FL (Hybrid Onsite) Pay Rate: $60-$65/hr. on C2C/1099 or $54/hr. on W2 Eligibility: US Citizens, GC, GC-EAD, H4-EAD, L2S only Responsibilities Overall 7+\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/ff44974e-8d74-443d-80fe-8469bd80afc5/snowflake-data-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"daed9ca8-3a81-4951-b2c4-f96a01e89b9e\",\n      \"title\": \"Snowflake Architect Banking Domain\",\n      \"employer\": \"Data Systems Integration Group\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\",\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-11T13:21:38+00:00\",\n      \"first_seen\": \"2026-09-11T14:40:50.176284+00:00\",\n      \"last_verified_live_at\": \"2026-09-14T11:40:25.711353+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"Engagement: C2C / Contract\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Third Party, Contract\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"C2C / Contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/daed9ca8-3a81-4951-b2c4-f96a01e89b9e/snowflake-architect-banking-domain?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"04cd39d5-2b46-403b-a46c-55e244ea99cf\",\n      \"title\": \"Senior Python Developer with Snowflake\",\n      \"employer\": \"PETADATA\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Rollingwood, Texas, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"Texas\",\n        \"city\": \"Rollingwood\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"c2c\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-09T20:50:50+00:00\",\n      \"first_seen\": \"2026-09-09T21:41:25.278640+00:00\",\n      \"last_verified_live_at\": \"2026-09-13T07:58:11.565881+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"c2c_positive\",\n          \"excerpt\": \"Work type: C2C\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/04cd39d5-2b46-403b-a46c-55e244ea99cf/senior-python-developer-with-snowflake?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 4,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [],\n    \"normalized_title\": \"snowflake\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"c2c\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": false,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
               "type": "text"
             }
           ],
@@ -377,6 +397,12 @@
                   "c2c",
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -393,7 +419,7 @@
                 ],
                 "published_at": "2026-09-15T20:42:08+00:00",
                 "first_seen": "2026-09-15T21:43:23.528742+00:00",
-                "last_verified_live_at": "2026-09-16T07:09:59.600969+00:00",
+                "last_verified_live_at": "2026-09-16T11:42:12.728397+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
@@ -431,6 +457,12 @@
                   "c2c",
                   "1099"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -486,6 +518,12 @@
                   "1099",
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -539,6 +577,12 @@
                 "engagement_models": [
                   "c2c"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -626,14 +670,14 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 1197,
+      "latency_ms": 1573,
       "response": {
         "jsonrpc": "2.0",
         "id": 6,
         "result": {
           "content": [
             {
-              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"334581aa-24a6-4a67-ab4c-8d525be7829d\",\n      \"title\": \"AI Developer for Web Scraping MVP\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"8\",\n        \"maximum\": \"25\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T08:37:15.869000+00:00\",\n      \"first_seen\": \"2026-09-16T08:43:56.594950+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T09:13:19.794206+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/334581aa-24a6-4a67-ab4c-8d525be7829d/ai-developer-for-web-scraping-mvp?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"94e117db-a81f-409a-87da-fc975eaccfa1\",\n      \"title\": \"AI Real Estate Deal Screener\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"15\",\n        \"maximum\": \"35\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T06:32:20.122000+00:00\",\n      \"first_seen\": \"2026-09-16T06:43:58.480764+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T07:13:09.507879+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/94e117db-a81f-409a-87da-fc975eaccfa1/ai-real-estate-deal-screener?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"0755caa1-abc0-441a-a494-a381e3c22ddb\",\n      \"title\": \"Test\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T06:20:20.811000+00:00\",\n      \"first_seen\": \"2026-09-16T06:28:49.326059+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T06:58:08.389504+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/0755caa1-abc0-441a-a494-a381e3c22ddb/test?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"79e26e11-a24c-465e-a02e-31b7e2c443b5\",\n      \"title\": \"Build AI Customer Operations Agent for B2B SaaS | RAG + OpenAI/Claude\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"12\",\n        \"maximum\": \"12\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T05:51:02.168000+00:00\",\n      \"first_seen\": \"2026-09-16T05:59:02.768972+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T06:28:07.051478+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/79e26e11-a24c-465e-a02e-31b7e2c443b5/build-ai-customer-operations-agent-for-b2b-saas-rag-openai-claude?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"11f7c394-bf51-4919-b8a7-80ec06c60cd3\",\n      \"title\": \"Contract AI Developer\",\n      \"employer\": \"Campspot\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Brazil\",\n        \"remote\": true,\n        \"country\": \"BR\",\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [],\n      \"commercial_eligibility\": \"research_required\",\n      \"engagement_note\": \"Contract type requires research.\",\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Himalayas\",\n          \"slug\": \"catalog-2212b6b2f598e6ca\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T03:56:07+00:00\",\n      \"first_seen\": \"2026-09-16T06:01:08.285007+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T06:00:02.582795+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"sh Level: Intermediate. Ability to read, write, and communicate Required location: Brazil This is a contract role, with hourly rate starting of $25-30 USD. Final rate is based on candidate experience and skill lev\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contractor\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"contract developer\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/11f7c394-bf51-4919-b8a7-80ec06c60cd3/contract-ai-developer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [\n      \"ai_engineer\"\n    ],\n    \"normalized_title\": \"\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\",\n      \"c2c\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": true,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": true,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"84e782b0-f05a-4ba7-ab00-62559de39f58\",\n      \"title\": \"Full Stack AI Engineer\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"15\",\n        \"maximum\": \"35\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T13:06:28.197000+00:00\",\n      \"first_seen\": \"2026-09-16T13:13:59.129093+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:13:07.159259+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/84e782b0-f05a-4ba7-ab00-62559de39f58/full-stack-ai-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"731a131d-00b5-472f-8d3d-d3d55fa20ea0\",\n      \"title\": \"Fal.ai Specialist (Generative AI)\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"19\",\n        \"maximum\": \"40\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T12:57:27.829000+00:00\",\n      \"first_seen\": \"2026-09-16T12:59:07.853845+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:13:09.572127+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/731a131d-00b5-472f-8d3d-d3d55fa20ea0/fal-ai-specialist-generative-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"d6e3c99a-e1c1-4c11-b8d9-48aaffcf40e4\",\n      \"title\": \"Ai Engineer\",\n      \"employer\": \"Georgia IT\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T12:51:10+00:00\",\n      \"first_seen\": \"2026-09-16T13:02:55.070693+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:05:21.334248+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/d6e3c99a-e1c1-4c11-b8d9-48aaffcf40e4/ai-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"e3ff6745-830b-4b67-b08b-ccadfffc6f74\",\n      \"title\": \"AI Developer / AI Agent Specialist for Custom AI Application Development (PoC / Micro-Task)\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"300\",\n        \"maximum\": \"300\",\n        \"currency\": \"USD\",\n        \"unit\": \"project\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T12:30:58.939000+00:00\",\n      \"first_seen\": \"2026-09-16T12:43:51.437940+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:13:09.575718+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Fixed-price freelance project AI Developer / AI Agent Specialist for Custom AI Application Development (PoC / Micro-Task) We are\"\n        },\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Fixed-price freelance project\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"larger, long-term contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/e3ff6745-830b-4b67-b08b-ccadfffc6f74/ai-developer-ai-agent-specialist-for-custom-ai-application-development-poc-micro?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"031734a6-b107-4961-87b5-c7cc63a5b0eb\",\n      \"title\": \"Senior Full-Stack AI Engineer(only individual freelancer)\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"10\",\n        \"maximum\": \"35\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T11:30:04.133000+00:00\",\n      \"first_seen\": \"2026-09-16T11:43:50.510897+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T12:13:10.640912+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/031734a6-b107-4961-87b5-c7cc63a5b0eb/senior-full-stack-ai-engineer-only-individual-freelancer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [\n      \"ai_engineer\"\n    ],\n    \"normalized_title\": \"\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\",\n      \"c2c\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": true,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": true,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
               "type": "text"
             }
           ],
@@ -641,8 +685,8 @@
           "structuredContent": {
             "jobs": [
               {
-                "id": "334581aa-24a6-4a67-ab4c-8d525be7829d",
-                "title": "AI Developer for Web Scraping MVP",
+                "id": "84e782b0-f05a-4ba7-ab00-62559de39f58",
+                "title": "Full Stack AI Engineer",
                 "employer": "Upwork client",
                 "intermediary": null,
                 "location": {
@@ -656,54 +700,12 @@
                 "engagement_models": [
                   "1099"
                 ],
-                "commercial_eligibility": "eligible",
-                "engagement_note": null,
-                "rate": {
-                  "minimum": "8",
-                  "maximum": "25",
-                  "currency": "USD",
-                  "unit": "hour"
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
                 },
-                "job_family": "machine_learning",
-                "job_subfamily": "machine_learning_engineering",
-                "job_class": "ai_engineer",
-                "level": "unknown",
-                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
-                "sources": [
-                  {
-                    "name": "Upwork",
-                    "slug": "catalog-beeefbb324b48abd"
-                  }
-                ],
-                "published_at": "2026-09-16T08:37:15.869000+00:00",
-                "first_seen": "2026-09-16T08:43:56.594950+00:00",
-                "last_verified_live_at": "2026-09-16T09:13:19.794206+00:00",
-                "liveness_status": "live",
-                "evidence": [
-                  {
-                    "kind": "explicit_positive",
-                    "label": "freelance_positive",
-                    "excerpt": "Hourly freelance"
-                  }
-                ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/334581aa-24a6-4a67-ab4c-8d525be7829d/ai-developer-for-web-scraping-mvp?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
-              },
-              {
-                "id": "94e117db-a81f-409a-87da-fc975eaccfa1",
-                "title": "AI Real Estate Deal Screener",
-                "employer": "Upwork client",
-                "intermediary": null,
-                "location": {
-                  "text": "Remote",
-                  "remote": true,
-                  "country": null,
-                  "region": null,
-                  "city": null
-                },
-                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
-                "engagement_models": [
-                  "1099"
-                ],
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
@@ -723,9 +725,9 @@
                     "slug": "catalog-beeefbb324b48abd"
                   }
                 ],
-                "published_at": "2026-09-16T06:32:20.122000+00:00",
-                "first_seen": "2026-09-16T06:43:58.480764+00:00",
-                "last_verified_live_at": "2026-09-16T07:13:09.507879+00:00",
+                "published_at": "2026-09-16T13:06:28.197000+00:00",
+                "first_seen": "2026-09-16T13:13:59.129093+00:00",
+                "last_verified_live_at": "2026-09-16T13:13:07.159259+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
@@ -734,11 +736,11 @@
                     "excerpt": "Hourly freelance"
                   }
                 ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/94e117db-a81f-409a-87da-fc975eaccfa1/ai-real-estate-deal-screener?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/84e782b0-f05a-4ba7-ab00-62559de39f58/full-stack-ai-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
               },
               {
-                "id": "0755caa1-abc0-441a-a494-a381e3c22ddb",
-                "title": "Test",
+                "id": "731a131d-00b5-472f-8d3d-d3d55fa20ea0",
+                "title": "Fal.ai Specialist (Generative AI)",
                 "employer": "Upwork client",
                 "intermediary": null,
                 "location": {
@@ -752,54 +754,17 @@
                 "engagement_models": [
                   "1099"
                 ],
-                "commercial_eligibility": "eligible",
-                "engagement_note": null,
-                "rate": null,
-                "job_family": "machine_learning",
-                "job_subfamily": "machine_learning_engineering",
-                "job_class": "ai_engineer",
-                "level": "unknown",
-                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
-                "sources": [
-                  {
-                    "name": "Upwork",
-                    "slug": "catalog-beeefbb324b48abd"
-                  }
-                ],
-                "published_at": "2026-09-16T06:20:20.811000+00:00",
-                "first_seen": "2026-09-16T06:28:49.326059+00:00",
-                "last_verified_live_at": "2026-09-16T06:58:08.389504+00:00",
-                "liveness_status": "live",
-                "evidence": [
-                  {
-                    "kind": "explicit_positive",
-                    "label": "freelance_positive",
-                    "excerpt": "Hourly freelance"
-                  }
-                ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/0755caa1-abc0-441a-a494-a381e3c22ddb/test?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
-              },
-              {
-                "id": "79e26e11-a24c-465e-a02e-31b7e2c443b5",
-                "title": "Build AI Customer Operations Agent for B2B SaaS | RAG + OpenAI/Claude",
-                "employer": "Upwork client",
-                "intermediary": null,
-                "location": {
-                  "text": "Remote",
-                  "remote": true,
-                  "country": null,
-                  "region": null,
-                  "city": null
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
                 },
-                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
-                "engagement_models": [
-                  "1099"
-                ],
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
-                  "minimum": "12",
-                  "maximum": "12",
+                  "minimum": "19",
+                  "maximum": "40",
                   "currency": "USD",
                   "unit": "hour"
                 },
@@ -814,9 +779,9 @@
                     "slug": "catalog-beeefbb324b48abd"
                   }
                 ],
-                "published_at": "2026-09-16T05:51:02.168000+00:00",
-                "first_seen": "2026-09-16T05:59:02.768972+00:00",
-                "last_verified_live_at": "2026-09-16T06:28:07.051478+00:00",
+                "published_at": "2026-09-16T12:57:27.829000+00:00",
+                "first_seen": "2026-09-16T12:59:07.853845+00:00",
+                "last_verified_live_at": "2026-09-16T13:13:09.572127+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
@@ -825,24 +790,33 @@
                     "excerpt": "Hourly freelance"
                   }
                 ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/79e26e11-a24c-465e-a02e-31b7e2c443b5/build-ai-customer-operations-agent-for-b2b-saas-rag-openai-claude?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/731a131d-00b5-472f-8d3d-d3d55fa20ea0/fal-ai-specialist-generative-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
               },
               {
-                "id": "11f7c394-bf51-4919-b8a7-80ec06c60cd3",
-                "title": "Contract AI Developer",
-                "employer": "Campspot",
+                "id": "d6e3c99a-e1c1-4c11-b8d9-48aaffcf40e4",
+                "title": "Ai Engineer",
+                "employer": "Georgia IT",
                 "intermediary": null,
                 "location": {
-                  "text": "Brazil",
+                  "text": null,
                   "remote": true,
-                  "country": "BR",
+                  "country": null,
                   "region": null,
                   "city": null
                 },
                 "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
-                "engagement_models": [],
-                "commercial_eligibility": "research_required",
-                "engagement_note": "Contract type requires research.",
+                "engagement_models": [
+                  "1099",
+                  "w2_contract"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
                 "rate": null,
                 "job_family": "machine_learning",
                 "job_subfamily": "machine_learning_engineering",
@@ -851,32 +825,145 @@
                 "provenance_scope": "Current primary source; full history is available through RadarJobs.",
                 "sources": [
                   {
-                    "name": "Himalayas",
-                    "slug": "catalog-2212b6b2f598e6ca"
+                    "name": "Dice",
+                    "slug": "catalog-b8494c27eab22a08"
                   }
                 ],
-                "published_at": "2026-09-16T03:56:07+00:00",
-                "first_seen": "2026-09-16T06:01:08.285007+00:00",
-                "last_verified_live_at": "2026-09-16T06:00:02.582795+00:00",
+                "published_at": "2026-09-16T12:51:10+00:00",
+                "first_seen": "2026-09-16T13:02:55.070693+00:00",
+                "last_verified_live_at": "2026-09-16T13:05:21.334248+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
                     "kind": "insufficient",
                     "label": "generic_contract",
-                    "excerpt": "sh Level: Intermediate. Ability to read, write, and communicate Required location: Brazil This is a contract role, with hourly rate starting of $25-30 USD. Final rate is based on candidate experience and skill lev"
+                    "excerpt": "Contract"
                   },
                   {
-                    "kind": "insufficient",
-                    "label": "generic_contract",
-                    "excerpt": "Contractor"
-                  },
-                  {
-                    "kind": "insufficient",
-                    "label": "generic_contract",
-                    "excerpt": "contract developer"
+                    "kind": "source_policy_inferred",
+                    "label": "general_job_board_contract_default",
+                    "excerpt": "dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract."
                   }
                 ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/11f7c394-bf51-4919-b8a7-80ec06c60cd3/contract-ai-developer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/d6e3c99a-e1c1-4c11-b8d9-48aaffcf40e4/ai-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              },
+              {
+                "id": "e3ff6745-830b-4b67-b08b-ccadfffc6f74",
+                "title": "AI Developer / AI Agent Specialist for Custom AI Application Development (PoC / Micro-Task)",
+                "employer": "Upwork client",
+                "intermediary": null,
+                "location": {
+                  "text": "Remote",
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "1099"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "300",
+                  "maximum": "300",
+                  "currency": "USD",
+                  "unit": "project"
+                },
+                "job_family": "machine_learning",
+                "job_subfamily": "machine_learning_engineering",
+                "job_class": "ai_engineer",
+                "level": "unknown",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
+                  }
+                ],
+                "published_at": "2026-09-16T12:30:58.939000+00:00",
+                "first_seen": "2026-09-16T12:43:51.437940+00:00",
+                "last_verified_live_at": "2026-09-16T13:13:09.575718+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Fixed-price freelance project AI Developer / AI Agent Specialist for Custom AI Application Development (PoC / Micro-Task) We are"
+                  },
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Fixed-price freelance project"
+                  },
+                  {
+                    "kind": "insufficient",
+                    "label": "generic_contract",
+                    "excerpt": "larger, long-term contract"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/e3ff6745-830b-4b67-b08b-ccadfffc6f74/ai-developer-ai-agent-specialist-for-custom-ai-application-development-poc-micro?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              },
+              {
+                "id": "031734a6-b107-4961-87b5-c7cc63a5b0eb",
+                "title": "Senior Full-Stack AI Engineer(only individual freelancer)",
+                "employer": "Upwork client",
+                "intermediary": null,
+                "location": {
+                  "text": "Remote",
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "1099"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "10",
+                  "maximum": "35",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
+                "job_family": "machine_learning",
+                "job_subfamily": "machine_learning_engineering",
+                "job_class": "ai_engineer",
+                "level": "senior",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
+                  }
+                ],
+                "published_at": "2026-09-16T11:30:04.133000+00:00",
+                "first_seen": "2026-09-16T11:43:50.510897+00:00",
+                "last_verified_live_at": "2026-09-16T12:13:10.640912+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Hourly freelance"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/031734a6-b107-4961-87b5-c7cc63a5b0eb/senior-full-stack-ai-engineer-only-individual-freelancer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
               }
             ],
             "returned": 5,
@@ -931,23 +1018,23 @@
       }
     },
     {
-      "name": "Contracts at least 80 USD/hour",
+      "name": "Contracts at least 50 USD/hour",
       "arguments": {
         "filters": {
-          "rate_min": 80,
+          "rate_min": 50,
           "currency": "USD"
         },
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 947,
+      "latency_ms": 1492,
       "response": {
         "jsonrpc": "2.0",
         "id": 7,
         "result": {
           "content": [
             {
-              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"8b526fe0-56f5-43c2-ab22-377a470ec811\",\n      \"title\": \"Salesforce Technical Architect \u2013 Genesys Cloud\",\n      \"employer\": \"Infostride Solutions Pvt Ltd\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"85\",\n        \"maximum\": \"90\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"software_engineering\",\n      \"job_subfamily\": \"application\",\n      \"job_class\": \"application_developer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Indeed\",\n          \"slug\": \"catalog-10249df624da4e21\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T23:17:53.081000+00:00\",\n      \"first_seen\": \"2026-09-16T01:38:12.900770+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T02:30:01.941794+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"hnical Architect \u2013 Genesys Cloud Company: Genesys Location: Boston, MA \u2014 Remote Role Type: Contract Contract Duration: 12 Months Experience: 10+ Years Work Authorization: USC/GC Preference: Candidates with prior Genesys experience highly preferred Position Overview We\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"indeed established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/8b526fe0-56f5-43c2-ab22-377a470ec811/salesforce-technical-architect-genesys-cloud?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 1,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [],\n    \"normalized_title\": \"\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\",\n      \"c2c\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": \"80\",\n    \"rate_max\": null,\n    \"currency\": [\n      \"USD\"\n    ],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": true,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Bounded preview of the 2,000 most recently discovered technology opportunities. Specify a role or title to search that scope more deeply.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"91f3306f-2462-4ded-9d41-210a52602e61\",\n      \"title\": \"Lead React Native\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"60\",\n        \"maximum\": \"90\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"software_engineering\",\n      \"job_subfamily\": \"mobile\",\n      \"job_class\": \"mobile_engineer\",\n      \"level\": \"lead\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T12:08:28.339000+00:00\",\n      \"first_seen\": \"2026-09-16T12:14:16.335405+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T12:13:08.948961+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/91f3306f-2462-4ded-9d41-210a52602e61/lead-react-native?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"f467506f-0588-4b37-9e45-8444eb8cf2ad\",\n      \"title\": \"RWA & Web3 Developer - Smart Contracts & dApp\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"50\",\n        \"maximum\": \"90\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"software_engineering\",\n      \"job_subfamily\": \"application\",\n      \"job_class\": \"application_developer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T12:05:34.086000+00:00\",\n      \"first_seen\": \"2026-09-16T12:14:16.335405+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T12:13:08.962016+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/f467506f-0588-4b37-9e45-8444eb8cf2ad/rwa-web3-developer-smart-contracts-dapp?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"d62ec50f-04f7-400e-9ca3-def8dee1980e\",\n      \"title\": \"Software Engineer (Full-Stack)\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"70\",\n        \"maximum\": \"110\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"software_engineering\",\n      \"job_subfamily\": null,\n      \"job_class\": \"software_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T10:05:32.370000+00:00\",\n      \"first_seen\": \"2026-09-16T10:14:06.510516+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T10:49:52.379951+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/d62ec50f-04f7-400e-9ca3-def8dee1980e/software-engineer-full-stack?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"e73c5822-543d-4ab2-84bc-f8b8584a5728\",\n      \"title\": \"PCB Designer for Automotive 12V Accessory\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"50\",\n        \"maximum\": \"130\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"hardware_engineering\",\n      \"job_subfamily\": \"electrical_hardware\",\n      \"job_class\": \"electrical_hardware_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T07:48:50.367000+00:00\",\n      \"first_seen\": \"2026-09-16T07:58:54.616720+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T08:28:29.641364+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/e73c5822-543d-4ab2-84bc-f8b8584a5728/pcb-designer-for-automotive-12v-accessory?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"630d95f7-0109-419c-8210-8a1135a4396c\",\n      \"title\": \"Fractional CTO / Lead Cloud Architect\",\n      \"employer\": \"Upwork client\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"70\",\n        \"maximum\": \"120\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"architecture\",\n      \"job_subfamily\": \"cloud_architecture\",\n      \"job_class\": \"cloud_architect\",\n      \"level\": \"executive\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Upwork\",\n          \"slug\": \"catalog-beeefbb324b48abd\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T06:26:48.282000+00:00\",\n      \"first_seen\": \"2026-09-16T06:28:49.326059+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T06:58:08.375816+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_positive\",\n          \"label\": \"freelance_positive\",\n          \"excerpt\": \"Hourly freelance\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/630d95f7-0109-419c-8210-8a1135a4396c/fractional-cto-lead-cloud-architect?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [],\n    \"normalized_title\": \"\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\",\n      \"c2c\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": \"50\",\n    \"rate_max\": null,\n    \"currency\": [\n      \"USD\"\n    ],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": true,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Bounded preview of the 2,000 most recently discovered technology opportunities. Specify a role or title to search that scope more deeply.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
               "type": "text"
             }
           ],
@@ -955,9 +1042,9 @@
           "structuredContent": {
             "jobs": [
               {
-                "id": "8b526fe0-56f5-43c2-ab22-377a470ec811",
-                "title": "Salesforce Technical Architect \u2013 Genesys Cloud",
-                "employer": "Infostride Solutions Pvt Ltd",
+                "id": "91f3306f-2462-4ded-9d41-210a52602e61",
+                "title": "Lead React Native",
+                "employer": "Upwork client",
                 "intermediary": null,
                 "location": {
                   "text": "Remote",
@@ -968,12 +1055,72 @@
                 },
                 "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
                 "engagement_models": [
-                  "w2_contract"
+                  "1099"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
-                  "minimum": "85",
+                  "minimum": "60",
+                  "maximum": "90",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
+                "job_family": "software_engineering",
+                "job_subfamily": "mobile",
+                "job_class": "mobile_engineer",
+                "level": "lead",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
+                  }
+                ],
+                "published_at": "2026-09-16T12:08:28.339000+00:00",
+                "first_seen": "2026-09-16T12:14:16.335405+00:00",
+                "last_verified_live_at": "2026-09-16T12:13:08.948961+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Hourly freelance"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/91f3306f-2462-4ded-9d41-210a52602e61/lead-react-native?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              },
+              {
+                "id": "f467506f-0588-4b37-9e45-8444eb8cf2ad",
+                "title": "RWA & Web3 Developer - Smart Contracts & dApp",
+                "employer": "Upwork client",
+                "intermediary": null,
+                "location": {
+                  "text": "Remote",
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "1099"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "50",
                   "maximum": "90",
                   "currency": "USD",
                   "unit": "hour"
@@ -985,30 +1132,187 @@
                 "provenance_scope": "Current primary source; full history is available through RadarJobs.",
                 "sources": [
                   {
-                    "name": "Indeed",
-                    "slug": "catalog-10249df624da4e21"
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
                   }
                 ],
-                "published_at": "2026-09-15T23:17:53.081000+00:00",
-                "first_seen": "2026-09-16T01:38:12.900770+00:00",
-                "last_verified_live_at": "2026-09-16T02:30:01.941794+00:00",
+                "published_at": "2026-09-16T12:05:34.086000+00:00",
+                "first_seen": "2026-09-16T12:14:16.335405+00:00",
+                "last_verified_live_at": "2026-09-16T12:13:08.962016+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
-                    "kind": "insufficient",
-                    "label": "generic_contract",
-                    "excerpt": "hnical Architect \u2013 Genesys Cloud Company: Genesys Location: Boston, MA \u2014 Remote Role Type: Contract Contract Duration: 12 Months Experience: 10+ Years Work Authorization: USC/GC Preference: Candidates with prior Genesys experience highly preferred Position Overview We"
-                  },
-                  {
-                    "kind": "source_policy_inferred",
-                    "label": "general_job_board_contract_default",
-                    "excerpt": "indeed established Contract scope without explicit subtype; Radar normalized it to W-2 contract."
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Hourly freelance"
                   }
                 ],
-                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/8b526fe0-56f5-43c2-ab22-377a470ec811/salesforce-technical-architect-genesys-cloud?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/f467506f-0588-4b37-9e45-8444eb8cf2ad/rwa-web3-developer-smart-contracts-dapp?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              },
+              {
+                "id": "d62ec50f-04f7-400e-9ca3-def8dee1980e",
+                "title": "Software Engineer (Full-Stack)",
+                "employer": "Upwork client",
+                "intermediary": null,
+                "location": {
+                  "text": "Remote",
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "1099"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "70",
+                  "maximum": "110",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
+                "job_family": "software_engineering",
+                "job_subfamily": null,
+                "job_class": "software_engineer",
+                "level": "unknown",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
+                  }
+                ],
+                "published_at": "2026-09-16T10:05:32.370000+00:00",
+                "first_seen": "2026-09-16T10:14:06.510516+00:00",
+                "last_verified_live_at": "2026-09-16T10:49:52.379951+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Hourly freelance"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/d62ec50f-04f7-400e-9ca3-def8dee1980e/software-engineer-full-stack?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              },
+              {
+                "id": "e73c5822-543d-4ab2-84bc-f8b8584a5728",
+                "title": "PCB Designer for Automotive 12V Accessory",
+                "employer": "Upwork client",
+                "intermediary": null,
+                "location": {
+                  "text": "Remote",
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "1099"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "50",
+                  "maximum": "130",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
+                "job_family": "hardware_engineering",
+                "job_subfamily": "electrical_hardware",
+                "job_class": "electrical_hardware_engineer",
+                "level": "unknown",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
+                  }
+                ],
+                "published_at": "2026-09-16T07:48:50.367000+00:00",
+                "first_seen": "2026-09-16T07:58:54.616720+00:00",
+                "last_verified_live_at": "2026-09-16T08:28:29.641364+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Hourly freelance"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/e73c5822-543d-4ab2-84bc-f8b8584a5728/pcb-designer-for-automotive-12v-accessory?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              },
+              {
+                "id": "630d95f7-0109-419c-8210-8a1135a4396c",
+                "title": "Fractional CTO / Lead Cloud Architect",
+                "employer": "Upwork client",
+                "intermediary": null,
+                "location": {
+                  "text": "Remote",
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "1099"
+                ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "70",
+                  "maximum": "120",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
+                "job_family": "architecture",
+                "job_subfamily": "cloud_architecture",
+                "job_class": "cloud_architect",
+                "level": "executive",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Upwork",
+                    "slug": "catalog-beeefbb324b48abd"
+                  }
+                ],
+                "published_at": "2026-09-16T06:26:48.282000+00:00",
+                "first_seen": "2026-09-16T06:28:49.326059+00:00",
+                "last_verified_live_at": "2026-09-16T06:58:08.375816+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_positive",
+                    "label": "freelance_positive",
+                    "excerpt": "Hourly freelance"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/630d95f7-0109-419c-8210-8a1135a4396c/fractional-cto-lead-cloud-architect?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
               }
             ],
-            "returned": 1,
+            "returned": 5,
             "applied_filters": {
               "published_after": null,
               "published_before": null,
@@ -1032,7 +1336,7 @@
               "country": [],
               "region": [],
               "city": [],
-              "rate_min": "80",
+              "rate_min": "50",
               "rate_max": null,
               "currency": [
                 "USD"
@@ -1072,14 +1376,14 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 761,
+      "latency_ms": 868,
       "response": {
         "jsonrpc": "2.0",
         "id": 8,
         "result": {
           "content": [
             {
-              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"7fd640d7-ecc2-428d-9768-2148cd2073ae\",\n      \"title\": \"Forward Deployed Engineer (AI)\",\n      \"employer\": \"ISOFT\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T01:38:00+00:00\",\n      \"first_seen\": \"2026-09-16T04:10:17.483660+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T04:12:05.936135+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/7fd640d7-ecc2-428d-9768-2148cd2073ae/forward-deployed-engineer-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"bad302b7-e24c-4722-a570-4e3f78773451\",\n      \"title\": \"Forward Deployed Engineer GEN AI\",\n      \"employer\": \"System Edge (USA) L.L.C.\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Austin, Texas, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"Texas\",\n        \"city\": \"Austin\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T21:55:15+00:00\",\n      \"first_seen\": \"2026-09-15T23:10:49.487666+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T08:42:55.707876+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/bad302b7-e24c-4722-a570-4e3f78773451/forward-deployed-engineer-gen-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"eee09ad5-c74e-495e-a528-ce434e9c441c\",\n      \"title\": \"Forward Deployed Engineer FDE - Applied AI\",\n      \"employer\": \"System Edge LLC.\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"80\",\n        \"maximum\": \"100\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Indeed\",\n          \"slug\": \"catalog-10249df624da4e21\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T21:12:11.679000+00:00\",\n      \"first_seen\": \"2026-09-16T00:06:47.381386+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T00:00:07.236301+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"indeed established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/eee09ad5-c74e-495e-a528-ce434e9c441c/forward-deployed-engineer-fde-applied-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"4ae219b2-cc35-4d20-9c3c-473f3d58ddde\",\n      \"title\": \"Forward Deployed Engineer\",\n      \"employer\": \"Conflux Systems Inc\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T17:10:19+00:00\",\n      \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T07:14:32.987823+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/4ae219b2-cc35-4d20-9c3c-473f3d58ddde/forward-deployed-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"44e85faa-1751-4a87-af58-8f168916f9c2\",\n      \"title\": \"Forward Deployed Engineer - Applied AI / Agent Engineer\",\n      \"employer\": \"TekVivid\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"San Jose, California, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"California\",\n        \"city\": \"San Jose\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T14:35:25+00:00\",\n      \"first_seen\": \"2026-09-15T15:42:55.550723+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T15:45:13.681531+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/44e85faa-1751-4a87-af58-8f168916f9c2/forward-deployed-engineer-applied-ai-agent-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [\n      \"ai_engineer\"\n    ],\n    \"normalized_title\": \"forward deployed engineer\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\",\n      \"c2c\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": true,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"7fd640d7-ecc2-428d-9768-2148cd2073ae\",\n      \"title\": \"Forward Deployed Engineer (AI)\",\n      \"employer\": \"ISOFT\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-16T01:38:00+00:00\",\n      \"first_seen\": \"2026-09-16T04:10:17.483660+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:05:34.700859+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/7fd640d7-ecc2-428d-9768-2148cd2073ae/forward-deployed-engineer-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"bad302b7-e24c-4722-a570-4e3f78773451\",\n      \"title\": \"Forward Deployed Engineer GEN AI\",\n      \"employer\": \"System Edge (USA) L.L.C.\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Austin, Texas, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"Texas\",\n        \"city\": \"Austin\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"1099\",\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"80\",\n        \"maximum\": \"85\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T21:55:15+00:00\",\n      \"first_seen\": \"2026-09-15T23:10:49.487666+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T13:08:47.063273+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/bad302b7-e24c-4722-a570-4e3f78773451/forward-deployed-engineer-gen-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"eee09ad5-c74e-495e-a528-ce434e9c441c\",\n      \"title\": \"Forward Deployed Engineer FDE - Applied AI\",\n      \"employer\": \"System Edge LLC.\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"Remote\",\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"80\",\n        \"maximum\": \"100\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Indeed\",\n          \"slug\": \"catalog-10249df624da4e21\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T21:12:11.679000+00:00\",\n      \"first_seen\": \"2026-09-16T00:06:47.381386+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T00:00:07.236301+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"indeed established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/eee09ad5-c74e-495e-a528-ce434e9c441c/forward-deployed-engineer-fde-applied-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"4ae219b2-cc35-4d20-9c3c-473f3d58ddde\",\n      \"title\": \"Forward Deployed Engineer\",\n      \"employer\": \"Conflux Systems Inc\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T17:10:19+00:00\",\n      \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T11:46:40.732327+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/4ae219b2-cc35-4d20-9c3c-473f3d58ddde/forward-deployed-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    },\n    {\n      \"id\": \"44e85faa-1751-4a87-af58-8f168916f9c2\",\n      \"title\": \"Forward Deployed Engineer - Applied AI / Agent Engineer\",\n      \"employer\": \"TekVivid\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": \"San Jose, California, USA\",\n        \"remote\": false,\n        \"country\": \"US\",\n        \"region\": \"California\",\n        \"city\": \"San Jose\"\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"unchanged\",\n        \"excluded_models\": [],\n        \"conflicting_models\": [],\n        \"evidence_labels\": []\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": null,\n      \"job_family\": \"machine_learning\",\n      \"job_subfamily\": \"machine_learning_engineering\",\n      \"job_class\": \"ai_engineer\",\n      \"level\": \"unknown\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T14:35:25+00:00\",\n      \"first_seen\": \"2026-09-15T15:42:55.550723+00:00\",\n      \"last_verified_live_at\": \"2026-09-15T15:45:13.681531+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        },\n        {\n          \"kind\": \"source_policy_inferred\",\n          \"label\": \"general_job_board_contract_default\",\n          \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/44e85faa-1751-4a87-af58-8f168916f9c2/forward-deployed-engineer-applied-ai-agent-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 5,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [\n      \"ai_engineer\"\n    ],\n    \"normalized_title\": \"forward deployed engineer\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\",\n      \"c2c\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": true,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
               "type": "text"
             }
           ],
@@ -1103,6 +1407,12 @@
                   "1099",
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -1119,7 +1429,7 @@
                 ],
                 "published_at": "2026-09-16T01:38:00+00:00",
                 "first_seen": "2026-09-16T04:10:17.483660+00:00",
-                "last_verified_live_at": "2026-09-16T04:12:05.936135+00:00",
+                "last_verified_live_at": "2026-09-16T13:05:34.700859+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
@@ -1149,11 +1459,23 @@
                 },
                 "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
                 "engagement_models": [
+                  "1099",
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
-                "rate": null,
+                "rate": {
+                  "minimum": "80",
+                  "maximum": "85",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
                 "job_family": "machine_learning",
                 "job_subfamily": "machine_learning_engineering",
                 "job_class": "ai_engineer",
@@ -1167,7 +1489,7 @@
                 ],
                 "published_at": "2026-09-15T21:55:15+00:00",
                 "first_seen": "2026-09-15T23:10:49.487666+00:00",
-                "last_verified_live_at": "2026-09-16T08:42:55.707876+00:00",
+                "last_verified_live_at": "2026-09-16T13:08:47.063273+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
@@ -1199,6 +1521,12 @@
                 "engagement_models": [
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": {
@@ -1252,6 +1580,12 @@
                 "engagement_models": [
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -1268,7 +1602,7 @@
                 ],
                 "published_at": "2026-09-15T17:10:19+00:00",
                 "first_seen": "2026-09-15T19:47:22.741325+00:00",
-                "last_verified_live_at": "2026-09-16T07:14:32.987823+00:00",
+                "last_verified_live_at": "2026-09-16T11:46:40.732327+00:00",
                 "liveness_status": "live",
                 "evidence": [
                   {
@@ -1300,6 +1634,12 @@
                 "engagement_models": [
                   "w2_contract"
                 ],
+                "engagement_resolution": {
+                  "status": "unchanged",
+                  "excluded_models": [],
+                  "conflicting_models": [],
+                  "evidence_labels": []
+                },
                 "commercial_eligibility": "eligible",
                 "engagement_note": null,
                 "rate": null,
@@ -1393,7 +1733,7 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 1207,
+      "latency_ms": 1482,
       "response": {
         "jsonrpc": "2.0",
         "id": 9,
@@ -1467,7 +1807,7 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 492,
+      "latency_ms": 485,
       "response": {
         "jsonrpc": "2.0",
         "id": 10,
@@ -1496,7 +1836,7 @@
         "limit": 5
       },
       "status": 200,
-      "latency_ms": 457,
+      "latency_ms": 503,
       "response": {
         "jsonrpc": "2.0",
         "id": 11,
@@ -1514,7 +1854,7 @@
   ],
   "initialize": {
     "status": 200,
-    "latency_ms": 568,
+    "latency_ms": 587,
     "response": {
       "jsonrpc": "2.0",
       "id": 1,
@@ -1545,7 +1885,7 @@
   },
   "tools": {
     "status": 200,
-    "latency_ms": 465,
+    "latency_ms": 505,
     "response": {
       "jsonrpc": "2.0",
       "id": 2,
@@ -2075,7 +2415,7 @@
   },
   "taxonomy": {
     "status": 200,
-    "latency_ms": 479,
+    "latency_ms": 541,
     "response": {
       "jsonrpc": "2.0",
       "id": 3,
@@ -2243,30 +2583,312 @@
       }
     }
   },
+  "engagement_resolution_regression": {
+    "opportunity_id": "3f5785c2-0378-4896-ae1a-8b297a48bbd4",
+    "strict_1099": {
+      "status": 200,
+      "latency_ms": 1278,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": {
+          "content": [
+            {
+              "text": "{\n  \"jobs\": [],\n  \"returned\": 0,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [],\n    \"normalized_title\": \"snowflake aws redshift\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"1099\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": false,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"No live matches for these filters in the searched scope. Do not invent results; ask which constraint to broaden.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "type": "text"
+            }
+          ],
+          "isError": false,
+          "structuredContent": {
+            "jobs": [],
+            "returned": 0,
+            "applied_filters": {
+              "published_after": null,
+              "published_before": null,
+              "fresh_after": null,
+              "job_domain": [],
+              "job_family": [],
+              "job_subfamily": [],
+              "job_class": [],
+              "normalized_title": "snowflake aws redshift",
+              "level": [],
+              "management_track": [],
+              "specializations": [],
+              "engagement_model": [
+                "1099"
+              ],
+              "commercial_eligibility": [],
+              "actionability": [],
+              "remote": null,
+              "country": [],
+              "region": [],
+              "city": [],
+              "rate_min": null,
+              "rate_max": null,
+              "currency": [],
+              "pay_basis": [],
+              "work_structure": [],
+              "include_low_pay": false,
+              "source": [],
+              "liveness_status": [
+                "live"
+              ],
+              "first_seen_after": null,
+              "changed_since": null,
+              "include_research_required_engagement": false,
+              "require_fresh_liveness": true
+            },
+            "match_mode": "exact",
+            "relaxed_filters": [],
+            "message": "No live matches for these filters in the searched scope. Do not invent results; ask which constraint to broaden.",
+            "search_scope": "Filtered live inventory.",
+            "radarjobs_url": "https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
+            "source_content_is_untrusted": true
+          }
+        }
+      }
+    },
+    "w2_contract": {
+      "status": 200,
+      "latency_ms": 1641,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": {
+          "content": [
+            {
+              "text": "{\n  \"jobs\": [\n    {\n      \"id\": \"3f5785c2-0378-4896-ae1a-8b297a48bbd4\",\n      \"title\": \"Senior Data Engineer \u2013 Snowflake & AWS Redshift\",\n      \"employer\": \"NimbusAITech LLC\",\n      \"intermediary\": null,\n      \"location\": {\n        \"text\": null,\n        \"remote\": true,\n        \"country\": null,\n        \"region\": null,\n        \"city\": null\n      },\n      \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n      \"engagement_models\": [\n        \"w2_contract\"\n      ],\n      \"engagement_resolution\": {\n        \"status\": \"restricted\",\n        \"excluded_models\": [\n          \"1099\",\n          \"c2c\"\n        ],\n        \"conflicting_models\": [\n          \"1099\"\n        ],\n        \"evidence_labels\": [\n          \"w2_positive\"\n        ]\n      },\n      \"commercial_eligibility\": \"eligible\",\n      \"engagement_note\": null,\n      \"rate\": {\n        \"minimum\": \"55\",\n        \"maximum\": \"65\",\n        \"currency\": \"USD\",\n        \"unit\": \"hour\"\n      },\n      \"job_family\": \"data\",\n      \"job_subfamily\": \"data_engineering\",\n      \"job_class\": \"data_platform_engineer\",\n      \"level\": \"senior\",\n      \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n      \"sources\": [\n        {\n          \"name\": \"Dice\",\n          \"slug\": \"catalog-b8494c27eab22a08\"\n        }\n      ],\n      \"published_at\": \"2026-09-15T18:24:51+00:00\",\n      \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n      \"last_verified_live_at\": \"2026-09-16T08:40:04.483050+00:00\",\n      \"liveness_status\": \"live\",\n      \"evidence\": [\n        {\n          \"kind\": \"explicit_negative\",\n          \"label\": \"w2_positive\",\n          \"excerpt\": \"a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin\"\n        },\n        {\n          \"kind\": \"insufficient\",\n          \"label\": \"generic_contract\",\n          \"excerpt\": \"Contract\"\n        }\n      ],\n      \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n    }\n  ],\n  \"returned\": 1,\n  \"applied_filters\": {\n    \"published_after\": null,\n    \"published_before\": null,\n    \"fresh_after\": null,\n    \"job_domain\": [],\n    \"job_family\": [],\n    \"job_subfamily\": [],\n    \"job_class\": [],\n    \"normalized_title\": \"snowflake aws redshift\",\n    \"level\": [],\n    \"management_track\": [],\n    \"specializations\": [],\n    \"engagement_model\": [\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": [],\n    \"actionability\": [],\n    \"remote\": null,\n    \"country\": [],\n    \"region\": [],\n    \"city\": [],\n    \"rate_min\": null,\n    \"rate_max\": null,\n    \"currency\": [],\n    \"pay_basis\": [],\n    \"work_structure\": [],\n    \"include_low_pay\": false,\n    \"source\": [],\n    \"liveness_status\": [\n      \"live\"\n    ],\n    \"first_seen_after\": null,\n    \"changed_since\": null,\n    \"include_research_required_engagement\": false,\n    \"require_fresh_liveness\": true\n  },\n  \"match_mode\": \"exact\",\n  \"relaxed_filters\": [],\n  \"message\": \"Live matches from current Radar inventory; availability can change.\",\n  \"search_scope\": \"Filtered live inventory.\",\n  \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\",\n  \"source_content_is_untrusted\": true\n}",
+              "type": "text"
+            }
+          ],
+          "isError": false,
+          "structuredContent": {
+            "jobs": [
+              {
+                "id": "3f5785c2-0378-4896-ae1a-8b297a48bbd4",
+                "title": "Senior Data Engineer \u2013 Snowflake & AWS Redshift",
+                "employer": "NimbusAITech LLC",
+                "intermediary": null,
+                "location": {
+                  "text": null,
+                  "remote": true,
+                  "country": null,
+                  "region": null,
+                  "city": null
+                },
+                "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+                "engagement_models": [
+                  "w2_contract"
+                ],
+                "engagement_resolution": {
+                  "status": "restricted",
+                  "excluded_models": [
+                    "1099",
+                    "c2c"
+                  ],
+                  "conflicting_models": [
+                    "1099"
+                  ],
+                  "evidence_labels": [
+                    "w2_positive"
+                  ]
+                },
+                "commercial_eligibility": "eligible",
+                "engagement_note": null,
+                "rate": {
+                  "minimum": "55",
+                  "maximum": "65",
+                  "currency": "USD",
+                  "unit": "hour"
+                },
+                "job_family": "data",
+                "job_subfamily": "data_engineering",
+                "job_class": "data_platform_engineer",
+                "level": "senior",
+                "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+                "sources": [
+                  {
+                    "name": "Dice",
+                    "slug": "catalog-b8494c27eab22a08"
+                  }
+                ],
+                "published_at": "2026-09-15T18:24:51+00:00",
+                "first_seen": "2026-09-15T19:47:22.741325+00:00",
+                "last_verified_live_at": "2026-09-16T08:40:04.483050+00:00",
+                "liveness_status": "live",
+                "evidence": [
+                  {
+                    "kind": "explicit_negative",
+                    "label": "w2_positive",
+                    "excerpt": "a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin"
+                  },
+                  {
+                    "kind": "insufficient",
+                    "label": "generic_contract",
+                    "excerpt": "Contract"
+                  }
+                ],
+                "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+              }
+            ],
+            "returned": 1,
+            "applied_filters": {
+              "published_after": null,
+              "published_before": null,
+              "fresh_after": null,
+              "job_domain": [],
+              "job_family": [],
+              "job_subfamily": [],
+              "job_class": [],
+              "normalized_title": "snowflake aws redshift",
+              "level": [],
+              "management_track": [],
+              "specializations": [],
+              "engagement_model": [
+                "w2_contract"
+              ],
+              "commercial_eligibility": [],
+              "actionability": [],
+              "remote": null,
+              "country": [],
+              "region": [],
+              "city": [],
+              "rate_min": null,
+              "rate_max": null,
+              "currency": [],
+              "pay_basis": [],
+              "work_structure": [],
+              "include_low_pay": false,
+              "source": [],
+              "liveness_status": [
+                "live"
+              ],
+              "first_seen_after": null,
+              "changed_since": null,
+              "include_research_required_engagement": false,
+              "require_fresh_liveness": true
+            },
+            "match_mode": "exact",
+            "relaxed_filters": [],
+            "message": "Live matches from current Radar inventory; availability can change.",
+            "search_scope": "Filtered live inventory.",
+            "radarjobs_url": "https://www.revenirdata.com/radar/jobs?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
+            "source_content_is_untrusted": true
+          }
+        }
+      }
+    },
+    "detail": {
+      "status": 200,
+      "latency_ms": 574,
+      "response": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": {
+          "content": [
+            {
+              "text": "{\n  \"job\": {\n    \"id\": \"3f5785c2-0378-4896-ae1a-8b297a48bbd4\",\n    \"title\": \"Senior Data Engineer \u2013 Snowflake & AWS Redshift\",\n    \"employer\": \"NimbusAITech LLC\",\n    \"intermediary\": null,\n    \"location\": {\n      \"text\": null,\n      \"remote\": true,\n      \"country\": null,\n      \"region\": null,\n      \"city\": null\n    },\n    \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n    \"engagement_models\": [\n      \"w2_contract\"\n    ],\n    \"engagement_resolution\": {\n      \"status\": \"restricted\",\n      \"excluded_models\": [\n        \"1099\",\n        \"c2c\"\n      ],\n      \"conflicting_models\": [\n        \"1099\"\n      ],\n      \"evidence_labels\": [\n        \"w2_positive\"\n      ]\n    },\n    \"commercial_eligibility\": \"eligible\",\n    \"engagement_note\": null,\n    \"rate\": {\n      \"minimum\": \"55\",\n      \"maximum\": \"65\",\n      \"currency\": \"USD\",\n      \"unit\": \"hour\"\n    },\n    \"job_family\": \"data\",\n    \"job_subfamily\": \"data_engineering\",\n    \"job_class\": \"data_platform_engineer\",\n    \"level\": \"senior\",\n    \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n    \"sources\": [\n      {\n        \"name\": \"Dice\",\n        \"slug\": \"catalog-b8494c27eab22a08\"\n      }\n    ],\n    \"published_at\": \"2026-09-15T18:24:51+00:00\",\n    \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n    \"last_verified_live_at\": \"2026-09-16T08:40:04.483050+00:00\",\n    \"liveness_status\": \"live\",\n    \"evidence\": [\n      {\n        \"kind\": \"explicit_negative\",\n        \"label\": \"w2_positive\",\n        \"excerpt\": \"a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin\"\n      },\n      {\n        \"kind\": \"insufficient\",\n        \"label\": \"generic_contract\",\n        \"excerpt\": \"Contract\"\n      }\n    ],\n    \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n  },\n  \"source_content_is_untrusted\": true\n}",
+              "type": "text"
+            }
+          ],
+          "isError": false,
+          "structuredContent": {
+            "job": {
+              "id": "3f5785c2-0378-4896-ae1a-8b297a48bbd4",
+              "title": "Senior Data Engineer \u2013 Snowflake & AWS Redshift",
+              "employer": "NimbusAITech LLC",
+              "intermediary": null,
+              "location": {
+                "text": null,
+                "remote": true,
+                "country": null,
+                "region": null,
+                "city": null
+              },
+              "remote_eligibility_note": "Remote is not a guarantee of worldwide eligibility.",
+              "engagement_models": [
+                "w2_contract"
+              ],
+              "engagement_resolution": {
+                "status": "restricted",
+                "excluded_models": [
+                  "1099",
+                  "c2c"
+                ],
+                "conflicting_models": [
+                  "1099"
+                ],
+                "evidence_labels": [
+                  "w2_positive"
+                ]
+              },
+              "commercial_eligibility": "eligible",
+              "engagement_note": null,
+              "rate": {
+                "minimum": "55",
+                "maximum": "65",
+                "currency": "USD",
+                "unit": "hour"
+              },
+              "job_family": "data",
+              "job_subfamily": "data_engineering",
+              "job_class": "data_platform_engineer",
+              "level": "senior",
+              "provenance_scope": "Current primary source; full history is available through RadarJobs.",
+              "sources": [
+                {
+                  "name": "Dice",
+                  "slug": "catalog-b8494c27eab22a08"
+                }
+              ],
+              "published_at": "2026-09-15T18:24:51+00:00",
+              "first_seen": "2026-09-15T19:47:22.741325+00:00",
+              "last_verified_live_at": "2026-09-16T08:40:04.483050+00:00",
+              "liveness_status": "live",
+              "evidence": [
+                {
+                  "kind": "explicit_negative",
+                  "label": "w2_positive",
+                  "excerpt": "a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin"
+                },
+                {
+                  "kind": "insufficient",
+                  "label": "generic_contract",
+                  "excerpt": "Contract"
+                }
+              ],
+              "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+            },
+            "source_content_is_untrusted": true
+          }
+        }
+      }
+    }
+  },
   "detail": {
     "status": 200,
-    "latency_ms": 833,
+    "latency_ms": 605,
     "response": {
       "jsonrpc": "2.0",
-      "id": 1,
+      "id": 15,
       "result": {
         "content": [
           {
-            "text": "{\n  \"job\": {\n    \"id\": \"3f5785c2-0378-4896-ae1a-8b297a48bbd4\",\n    \"title\": \"Senior Data Engineer \u2013 Snowflake & AWS Redshift\",\n    \"employer\": \"NimbusAITech LLC\",\n    \"intermediary\": null,\n    \"location\": {\n      \"text\": null,\n      \"remote\": true,\n      \"country\": null,\n      \"region\": null,\n      \"city\": null\n    },\n    \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n    \"engagement_models\": [\n      \"1099\",\n      \"w2_contract\"\n    ],\n    \"commercial_eligibility\": \"eligible\",\n    \"engagement_note\": null,\n    \"rate\": {\n      \"minimum\": \"55\",\n      \"maximum\": \"65\",\n      \"currency\": \"USD\",\n      \"unit\": \"hour\"\n    },\n    \"job_family\": \"data\",\n    \"job_subfamily\": \"data_engineering\",\n    \"job_class\": \"data_platform_engineer\",\n    \"level\": \"senior\",\n    \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n    \"sources\": [\n      {\n        \"name\": \"Dice\",\n        \"slug\": \"catalog-b8494c27eab22a08\"\n      }\n    ],\n    \"published_at\": \"2026-09-15T18:24:51+00:00\",\n    \"first_seen\": \"2026-09-15T19:47:22.741325+00:00\",\n    \"last_verified_live_at\": \"2026-09-16T08:40:04.483050+00:00\",\n    \"liveness_status\": \"live\",\n    \"evidence\": [\n      {\n        \"kind\": \"explicit_negative\",\n        \"label\": \"w2_positive\",\n        \"excerpt\": \"a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin\"\n      },\n      {\n        \"kind\": \"insufficient\",\n        \"label\": \"generic_contract\",\n        \"excerpt\": \"Contract\"\n      }\n    ],\n    \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n  },\n  \"source_content_is_untrusted\": true\n}",
+            "text": "{\n  \"job\": {\n    \"id\": \"a343e351-204f-4c87-928b-11b4076bfc17\",\n    \"title\": \"Senior AI Developer (Snowflake Cortex AI)\",\n    \"employer\": \"Spar Information Systems\",\n    \"intermediary\": null,\n    \"location\": {\n      \"text\": \"US\",\n      \"remote\": true,\n      \"country\": \"US\",\n      \"region\": null,\n      \"city\": null\n    },\n    \"remote_eligibility_note\": \"Remote is not a guarantee of worldwide eligibility.\",\n    \"engagement_models\": [\n      \"1099\",\n      \"w2_contract\"\n    ],\n    \"engagement_resolution\": {\n      \"status\": \"unchanged\",\n      \"excluded_models\": [],\n      \"conflicting_models\": [],\n      \"evidence_labels\": []\n    },\n    \"commercial_eligibility\": \"eligible\",\n    \"engagement_note\": null,\n    \"rate\": null,\n    \"job_family\": \"data\",\n    \"job_subfamily\": \"data_engineering\",\n    \"job_class\": \"data_platform_engineer\",\n    \"level\": \"senior\",\n    \"provenance_scope\": \"Current primary source; full history is available through RadarJobs.\",\n    \"sources\": [\n      {\n        \"name\": \"Dice\",\n        \"slug\": \"catalog-b8494c27eab22a08\"\n      }\n    ],\n    \"published_at\": \"2026-09-15T20:31:10+00:00\",\n    \"first_seen\": \"2026-09-15T15:42:55.550723+00:00\",\n    \"last_verified_live_at\": \"2026-09-16T13:05:42.114928+00:00\",\n    \"liveness_status\": \"live\",\n    \"evidence\": [\n      {\n        \"kind\": \"source_policy_inferred\",\n        \"label\": \"general_job_board_contract_default\",\n        \"excerpt\": \"dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract.\"\n      }\n    ],\n    \"radarjobs_url\": \"https://www.revenirdata.com/radar/jobs/opportunity/a343e351-204f-4c87-928b-11b4076bfc17/senior-ai-developer-snowflake-cortex-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex\"\n  },\n  \"source_content_is_untrusted\": true\n}",
             "type": "text"
           }
         ],
         "isError": false,
         "structuredContent": {
           "job": {
-            "id": "3f5785c2-0378-4896-ae1a-8b297a48bbd4",
-            "title": "Senior Data Engineer \u2013 Snowflake & AWS Redshift",
-            "employer": "NimbusAITech LLC",
+            "id": "a343e351-204f-4c87-928b-11b4076bfc17",
+            "title": "Senior AI Developer (Snowflake Cortex AI)",
+            "employer": "Spar Information Systems",
             "intermediary": null,
             "location": {
-              "text": null,
+              "text": "US",
               "remote": true,
-              "country": null,
+              "country": "US",
               "region": null,
               "city": null
             },
@@ -2275,14 +2897,15 @@
               "1099",
               "w2_contract"
             ],
+            "engagement_resolution": {
+              "status": "unchanged",
+              "excluded_models": [],
+              "conflicting_models": [],
+              "evidence_labels": []
+            },
             "commercial_eligibility": "eligible",
             "engagement_note": null,
-            "rate": {
-              "minimum": "55",
-              "maximum": "65",
-              "currency": "USD",
-              "unit": "hour"
-            },
+            "rate": null,
             "job_family": "data",
             "job_subfamily": "data_engineering",
             "job_class": "data_platform_engineer",
@@ -2294,23 +2917,18 @@
                 "slug": "catalog-b8494c27eab22a08"
               }
             ],
-            "published_at": "2026-09-15T18:24:51+00:00",
-            "first_seen": "2026-09-15T19:47:22.741325+00:00",
-            "last_verified_live_at": "2026-09-16T08:40:04.483050+00:00",
+            "published_at": "2026-09-15T20:31:10+00:00",
+            "first_seen": "2026-09-15T15:42:55.550723+00:00",
+            "last_verified_live_at": "2026-09-16T13:05:42.114928+00:00",
             "liveness_status": "live",
             "evidence": [
               {
-                "kind": "explicit_negative",
-                "label": "w2_positive",
-                "excerpt": "a Engineer Snowflake & AWS Redshift Client: Elevance HealthLocation: Richmond, VA RemoteEmployment: Contract W2 OnlyExperience: 8+ years preferred Seeking a Senior Data Engineer with strong cloud data engineerin"
-              },
-              {
-                "kind": "insufficient",
-                "label": "generic_contract",
-                "excerpt": "Contract"
+                "kind": "source_policy_inferred",
+                "label": "general_job_board_contract_default",
+                "excerpt": "dice established Contract scope without explicit subtype; Radar normalized it to W-2 contract."
               }
             ],
-            "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
+            "radarjobs_url": "https://www.revenirdata.com/radar/jobs/opportunity/a343e351-204f-4c87-928b-11b4076bfc17/senior-ai-developer-snowflake-cortex-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex"
           },
           "source_content_is_untrusted": true
         }
@@ -2320,46 +2938,46 @@
   "result_links": [
     {
       "status": 200,
-      "url": "https://www.revenirdata.com/radar/jobs/opportunity/3f5785c2-0378-4896-ae1a-8b297a48bbd4/senior-data-engineer-snowflake-aws-redshift?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
-      "opportunity_id": "3f5785c2-0378-4896-ae1a-8b297a48bbd4",
+      "url": "https://www.revenirdata.com/radar/jobs/opportunity/a343e351-204f-4c87-928b-11b4076bfc17/senior-ai-developer-snowflake-cortex-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
+      "opportunity_id": "a343e351-204f-4c87-928b-11b4076bfc17",
       "title_verified": true,
-      "latency_ms": 320
+      "latency_ms": 1295
     },
     {
       "status": 200,
       "url": "https://www.revenirdata.com/radar/jobs/opportunity/34eb1dca-f5fd-4c7b-8790-5103ccb5b8d6/snowflake-data-architect-new-york-ny-face-to-face-round-of-interview?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
       "opportunity_id": "34eb1dca-f5fd-4c7b-8790-5103ccb5b8d6",
       "title_verified": true,
-      "latency_ms": 267
+      "latency_ms": 293
     },
     {
       "status": 200,
-      "url": "https://www.revenirdata.com/radar/jobs/opportunity/334581aa-24a6-4a67-ab4c-8d525be7829d/ai-developer-for-web-scraping-mvp?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
-      "opportunity_id": "334581aa-24a6-4a67-ab4c-8d525be7829d",
+      "url": "https://www.revenirdata.com/radar/jobs/opportunity/84e782b0-f05a-4ba7-ab00-62559de39f58/full-stack-ai-engineer?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
+      "opportunity_id": "84e782b0-f05a-4ba7-ab00-62559de39f58",
       "title_verified": true,
-      "latency_ms": 319
+      "latency_ms": 1362
     },
     {
       "status": 200,
-      "url": "https://www.revenirdata.com/radar/jobs/opportunity/8b526fe0-56f5-43c2-ab22-377a470ec811/salesforce-technical-architect-genesys-cloud?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
-      "opportunity_id": "8b526fe0-56f5-43c2-ab22-377a470ec811",
+      "url": "https://www.revenirdata.com/radar/jobs/opportunity/91f3306f-2462-4ded-9d41-210a52602e61/lead-react-native?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
+      "opportunity_id": "91f3306f-2462-4ded-9d41-210a52602e61",
       "title_verified": true,
-      "latency_ms": 1155
+      "latency_ms": 773
     },
     {
       "status": 200,
       "url": "https://www.revenirdata.com/radar/jobs/opportunity/7fd640d7-ecc2-428d-9768-2148cd2073ae/forward-deployed-engineer-ai?utm_source=openai&utm_medium=plugin&utm_campaign=radarjobs_codex",
       "opportunity_id": "7fd640d7-ecc2-428d-9768-2148cd2073ae",
       "title_verified": true,
-      "latency_ms": 214
+      "latency_ms": 225
     }
   ],
-  "links_checked_at": "2026-09-16T11:15:43.795277+00:00",
+  "links_checked_at": "2026-09-16T13:26:08.307188+00:00",
   "backend_deployment": {
     "status": "ready",
     "database": "ok",
     "environment": "production",
-    "build_sha": "d6e2c7652b8702e7131e1d05fd09bf883e6e47e6"
+    "build_sha": "159b9eb93fcee1f9000ca085f532cfd3f4e155aa"
   },
   "website_deployment": {
     "service": "revenir-website",
