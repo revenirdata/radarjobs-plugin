@@ -1,8 +1,10 @@
 {
   "verification": "Codex app-server plugin/read",
+  "marketplace": "revenir",
+  "distribution_source": "https://github.com/revenirdata/radarjobs-plugin",
   "installed": true,
   "enabled": true,
-  "version": "1.0.0+codex.20260916111144",
+  "version": "1.0.0",
   "display_name": "RadarJobs",
   "description": "Search live contract tech jobs across sources.",
   "developer": "Revenir",

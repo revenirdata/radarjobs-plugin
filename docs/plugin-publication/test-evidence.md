@@ -81,11 +81,22 @@ No fake user signup or customer account was created for acceptance.
 
 ## Local installation and appearance evidence
 
-`codex plugin add radarjobs@personal` installed and enabled the plugin. Codex's
+The final GitHub installation commands both succeeded:
+
+```sh
+codex plugin marketplace add revenirdata/radarjobs-plugin
+codex plugin add radarjobs@revenir
+```
+
+The public repository is accessible, the `revenir` marketplace resolves its
+relative package path, and `codex plugin list --marketplace revenir --json`
+reports `radarjobs@revenir` version `1.0.0` installed and enabled. The temporary
+personal development installation was removed to avoid duplicate active tools;
+its source is retained. Codex's
 actual `plugin/read` response recognizes RadarJobs, Revenir, the description,
 three starter prompts, the company logo, both image assets, the enabled skill
-and remote MCP server. The local development version is
-`1.0.0+codex.20260916111144`; the distributable package remains `1.0.0`.
+and remote MCP server. Both the installed GitHub package and distributable
+package are version `1.0.0`.
 
 **Native Codex plugin-panel rendering was not visually inspected:** native app
 control is unavailable in this session. Recognition and asset existence are
@@ -104,3 +115,9 @@ role, domain challenge, countries or attestation was guessed. No submission,
 OpenAI contact, workspace publication or public-directory listing was performed.
 Owner authorization is required before public submission. OpenAI review and
 publication remain separate from GitHub/manual installation.
+
+**State reached: B — GitHub/manual distributable, installed locally.** The
+package is available for eligible workspace import (C), but no workspace
+publication was attempted. Public submission materials are prepared (D), with
+owner/account/portal requirements and native Codex visual acceptance still
+explicitly outstanding. E and F have not occurred.
