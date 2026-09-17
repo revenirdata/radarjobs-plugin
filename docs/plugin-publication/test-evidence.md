@@ -31,6 +31,12 @@ The official plugin validator passes. `chatgpt-app-submission.json` validates
 against the live OpenAI Draft 2020-12 schema and contains five tools, exactly five
 positive tests, and exactly three negative tests.
 
+Review branches:
+
+- backend OAuth and tools: [revenir-radar-backend PR #333](https://github.com/revenirdata/revenir-radar-backend/pull/333)
+- consent and support pages: [revenir-website PR #110](https://github.com/revenirdata/revenir-website/pull/110)
+- publication package: [radarjobs-plugin PR #2](https://github.com/revenirdata/radarjobs-plugin/pull/2)
+
 ## Production status
 
 The currently deployed MCP still represents the previous anonymous version.
