@@ -8,24 +8,30 @@ Backend focused tests cover the five-tool descriptor contract, explicit hints,
 output schemas, bounded search, unsupported filters, neutral entitlement
 failure, taxonomy, fixed-origin job projection, guard limits, OAuth metadata,
 unauthenticated MCP rejection, and RadarJobs-deletion grant cleanup.
-The focused result is **37 passed, 1 skipped**. The skip is the PostgreSQL-backed
-OAuth lifecycle matrix because Docker Desktop was unavailable locally.
-The complete local backend suite is **730 passed, 367 skipped**; skipped tests
+The current focused result is **51 passed, 7 skipped**. The skips are
+PostgreSQL-backed tests because Docker Desktop was unavailable locally. The
+latest complete local backend suite is **730 passed, 367 skipped**; skipped tests
 are the repository's PostgreSQL-backed integration groups in this environment.
+
+The authenticated OAuth lifecycle matrix covers authorization-code exchange,
+code replay rejection, refresh rotation and replay-family revocation, explicit
+revocation, and cross-account subject isolation. It is implemented but remains
+part of the PostgreSQL-backed group that could not run locally.
 
 Website tests cover the dedicated support page, noindex connection page, bounded
 request handle, sign-in/sign-up return path, OpenAI attribution, disclosed data
 categories, absence of checkout copy, same-origin approval, and server-held Radar
 session use. The full website Node suite also passes.
-The full result is **259 passed**. ESLint passes for every changed TypeScript
+The full result is **260 passed**. ESLint passes for every changed TypeScript
 component and route. Repository-wide TypeScript is blocked in this sparse
 worktree by pre-existing missing static image modules, not by a reported error in
 the changed files.
 
-Exact command results and PR CI links must be added here after the reviewable
-branches are pushed. PostgreSQL OAuth exchange, refresh rotation/replay, revocation,
-cross-account isolation, and production MCP acceptance remain required because
-Docker Desktop was unavailable for local database integration.
+Reviewable branches and current CI are linked below. Production MCP acceptance
+remains required after review and deployment.
+
+- Backend final-head CI: [successful validate run](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35173517484/job/105050080289) for commit `5a0e5d902725b0edffc5f8fa02fd0c9176373b6b`.
+- Website final-head CI: [successful public-conversion run](https://github.com/revenirdata/revenir-website/actions/runs/35173758345/job/105050811876) and [successful Radar-product run](https://github.com/revenirdata/revenir-website/actions/runs/35173758248/job/105050811969) for commit `a6e0e176fe841cfeb77c000b09fc3f42f5354ee9`.
 
 The official plugin validator passes. `chatgpt-app-submission.json` validates
 against the live OpenAI Draft 2020-12 schema and contains five tools, exactly five

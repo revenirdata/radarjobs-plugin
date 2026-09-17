@@ -24,7 +24,7 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "RadarJobs",
-    "shortDescription": "Search contract tech jobs",
+    "shortDescription": "Find contract tech jobs",
     "longDescription": "Connect your RadarJobs account to search current contract technology opportunities, inspect job details and taxonomy, check account readiness, and review existing personalized recommendations. RadarJobs respects the access already attached to your account. It does not apply to jobs or sell subscriptions in ChatGPT.",
     "developerName": "Revenir",
     "category": "Productivity",

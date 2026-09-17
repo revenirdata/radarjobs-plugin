@@ -1,6 +1,6 @@
 # RadarJobs
 
-**Search contract tech jobs with your RadarJobs account.** By
+**Find contract tech jobs with your RadarJobs account.** By
 [Revenir](https://www.revenirdata.com).
 
 RadarJobs connects through OAuth and reuses the account, setup, access, and

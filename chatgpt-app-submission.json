@@ -3,7 +3,7 @@
   "schema_version": 1,
   "app_info": {
     "display_name": "RadarJobs",
-    "subtitle": "Search contract tech jobs",
+    "subtitle": "Find contract tech jobs",
     "description": "RadarJobs connects to a user's existing account to check access and setup, search current contract technology opportunities, inspect eligible job details and taxonomy, and review existing personalized recommendations.",
     "category": "PRODUCTIVITY"
   },

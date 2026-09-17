@@ -18,6 +18,8 @@
 ## Review assets
 
 - [x] Listing copy and privacy/data-flow documentation updated for authentication.
+- [x] Public privacy and terms source updated for authenticated plugin data flow,
+  recipients, retention, user controls, entitlement reuse, and capability limits.
 - [x] Dedicated customer-support page implemented at `/support`.
 - [x] Reviewer demo storyboard and exact prompts prepared.
 - [x] Exactly five positive and three negative submission tests prepared.

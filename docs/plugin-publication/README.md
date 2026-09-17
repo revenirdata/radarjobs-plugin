@@ -24,9 +24,11 @@ changes are deployed and live-verified.
 
 - `listing-copy.md`: portal-facing product and capability copy.
 - `privacy-data-flow.md`: OAuth, data use, isolation, disconnect, and deletion.
+- `entitlement-mapping.md`: exact backend state to plugin behavior.
 - `review-checklist.md`: completed source checks and unresolved owner/live steps.
 - `test-evidence.md`: verified local results and explicit production gaps.
 - `reviewer-demo.md`: exact video script, prompts, and privacy QA.
+- `reviewer-account-plan.md`: owner-gated synthetic reviewer access and cleanup.
 - `chatgpt-app-submission.json` at repository root: generated partial form data.
 
 The images under `screenshots/` and `assets/` document the earlier anonymous

@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Name | RadarJobs |
-| Subtitle | Search contract tech jobs |
+| Subtitle | Find contract tech jobs |
 | Developer | Revenir |
 | Version | 2.0.0 |
 | Category | Productivity |
