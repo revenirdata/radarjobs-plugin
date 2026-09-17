@@ -33,9 +33,13 @@ remains required after review and deployment.
 - Backend final-head CI: [successful validate run](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35173517484/job/105050080289) for commit `5a0e5d902725b0edffc5f8fa02fd0c9176373b6b`.
 - Website final-head CI: [successful public-conversion run](https://github.com/revenirdata/revenir-website/actions/runs/35173758345/job/105050811876) and [successful Radar-product run](https://github.com/revenirdata/revenir-website/actions/runs/35173758248/job/105050811969) for commit `a6e0e176fe841cfeb77c000b09fc3f42f5354ee9`.
 
-The official plugin validator passes. `chatgpt-app-submission.json` validates
-against the live OpenAI Draft 2020-12 schema and contains five tools, exactly five
-positive tests, and exactly three negative tests.
+The official plugin validator passes. `chatgpt-app-submission.json` uses the
+Apps SDK `$schema` URL required by the submission portal and installed OpenAI
+submission skill. That URL currently redirects to the `/plugins/` schema, whose
+internal `$schema` constant still names the redirected URL; after substituting
+only that upstream constant, the payload validates against the remaining live
+Draft 2020-12 schema. It contains five tools, exactly five positive tests, and
+exactly three negative tests.
 
 Review branches:
 
