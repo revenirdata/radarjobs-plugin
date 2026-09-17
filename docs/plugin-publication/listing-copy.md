@@ -1,58 +1,62 @@
-# Listing metadata
+# RadarJobs listing copy
 
 | Field | Value |
 |---|---|
 | Name | RadarJobs |
-| Optional descriptive title | RadarJobs — Contract Tech Jobs |
+| Subtitle | Search contract tech jobs |
 | Developer | Revenir |
-| Version | 1.0.0 |
+| Version | 2.0.0 |
 | Category | Productivity |
 | Website | https://www.revenirdata.com/radar/jobs |
-| Company | https://www.revenirdata.com |
+| Support | https://www.revenirdata.com/support |
 | Privacy | https://www.revenirdata.com/privacy |
-| Terms / acceptable use | https://www.revenirdata.com/terms |
-| Support / review contact | support@revenirdata.com |
-| Contact route | https://www.revenirdata.com/contact (redirects to consultation) |
+| Terms | https://www.revenirdata.com/terms |
 | MCP URL | https://api.revenirdata.com/radarjobs/mcp |
-| Authentication | None; bounded anonymous public preview |
-| Requested account permissions | None |
+| Authentication | OAuth 2.1 authorization code with S256 PKCE |
 
-## Short description
+## Description
 
-Search live contract tech jobs across sources.
+Connect your RadarJobs account to search current contract technology
+opportunities, inspect job details and taxonomy, check account readiness, and
+review your existing personalized recommendations. RadarJobs uses the access and
+setup state already attached to your account.
 
-## Full description
+RadarJobs does not submit applications, save jobs, upload resumes, sell access,
+start checkout, or change subscriptions in ChatGPT. Search supports documented
+1099, C2C, and W-2 contract arrangements. Remote status does not guarantee
+worldwide eligibility, and unknown compensation or eligibility remains unknown.
 
-Find contract technology opportunities with RadarJobs by Revenir. Search existing
-cross-source inventory using role, location, remote status, seniority, hourly rate
-and documented engagement type, including 1099, C2C and W-2 contract. Match stack
-terms such as Snowflake or Python in job titles. Get up to five concise results
-with compensation when known, source evidence, freshness and a RadarJobs link.
+## Account and access
 
-No Radar account, API key, card or resume is needed. Searches without a role or title use a disclosed preview of the 2,000 most recently discovered technology opportunities; add a role/title for targeted inventory search. Remote restrictions and
-unknown compensation remain explicit. Broader title matches are disclosed.
-Availability can change; RadarJobs does not guarantee worldwide eligibility,
-contract eligibility, placement, or exhaustive coverage. No job applications are
-submitted. Generic freelance listings may require research; freelance is not a
-separate normalized contract filter.
+Connection uses the existing RadarJobs identity and membership. A user without an
+account can create one in the adjacent Revenir authorization flow, then return to
+approve the connection. Search requires existing active paid-equivalent access.
+An eligible exploration account can read its current personalized preview.
+Account status responses link neutrally to the RadarJobs account page; they do
+not advertise plans or link directly to checkout.
 
-## Capability claims
+## Capabilities
 
-Search, public job inspection and taxonomy only. No personalized recommendations,
-saved jobs, alerts, resume analysis, job applications, account connection, billing,
-or permanent-only employment search in this version. Stack matching is title-only.
+- Read the connected account's RadarJobs setup and access state.
+- Search current contract technology inventory with bounded filters and at most
+  five results.
+- Read existing personalized recommendations; no recommendation generation.
+- Inspect an eligible opportunity by UUID.
+- Read RadarJobs taxonomy identifiers.
 
-## Review account and countries
+No job application, saved-job mutation, alert mutation, resume processing,
+billing, subscription, email, crawling, or new model inference is exposed.
 
-No test account or credentials are needed. Public endpoint tests work anonymously.
-No country guarantee is implied by remote listings. Select actual supported launch
-countries in the portal after reviewing current inventory and account eligibility;
-the public package does not claim unrestricted worldwide employment eligibility.
+## Commerce answer
+
+The plugin itself does not facilitate a purchase or expose checkout. Select
+**No** when the portal asks whether this plugin performs commerce or enables a
+purchase in ChatGPT. RadarJobs is an existing commercial service and the plugin
+honors the user's existing entitlement; disclose that distinction if the portal
+separately asks about the developer's business model.
 
 ## Release notes
 
-Initial anonymous contract-tech discovery integration. Three tools, five-result
-limit, source evidence, title-only closest matching, safe Revenir links and existing
-campaign attribution. Explicit engagement-evidence conflict resolution prevents
-W-2-only opportunities from appearing in strict 1099 or C2C searches. Minimal
-operational telemetry; no additional model inference.
+Authenticated RadarJobs account connection with five bounded tools, S256 PKCE,
+opaque rotating tokens, revocation, shared account entitlements, personalized
+recommendation reads, and no in-chat commerce.
