@@ -1,7 +1,7 @@
 {
   "name": "radarjobs",
-  "version": "1.0.0",
-  "description": "Search live contract tech jobs across sources.",
+  "version": "2.0.0",
+  "description": "Use your RadarJobs account to search contract tech jobs and review personalized recommendations.",
   "author": {
     "name": "Revenir",
     "email": "support@revenirdata.com",
@@ -18,16 +18,14 @@
     "1099",
     "C2C",
     "W-2 contract",
-    "data engineering",
-    "software engineering",
-    "AI"
+    "recommendations"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "RadarJobs",
-    "shortDescription": "Search live contract tech jobs across sources.",
-    "longDescription": "Find live technology contracts across sources with no account or API key. Filter by role, location, seniority, hourly rate and documented 1099, C2C or W-2 contract arrangements. Match stack terms in job titles. Get up to five concise results with source evidence, freshness and RadarJobs links. Remote eligibility and unknown compensation remain explicit.",
+    "shortDescription": "Find contract tech jobs",
+    "longDescription": "Connect your RadarJobs account to search current contract technology opportunities, inspect job details and taxonomy, check account readiness, and review existing personalized recommendations. RadarJobs respects the access already attached to your account. It does not apply to jobs or sell subscriptions in ChatGPT.",
     "developerName": "Revenir",
     "category": "Productivity",
     "capabilities": [],
@@ -36,16 +34,12 @@
     "termsOfServiceURL": "https://www.revenirdata.com/terms",
     "defaultPrompt": [
       "Find remote data engineering contracts.",
-      "Find C2C Snowflake contracts.",
-      "Find contracts paying at least 80 USD per hour."
+      "Show my RadarJobs recommendations.",
+      "Check whether my RadarJobs account is ready to search."
     ],
     "brandColor": "#23DBC2",
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png",
-    "logoDark": "./assets/logo.png",
-    "screenshots": [
-      "./assets/snowflake-contracts.png",
-      "./assets/remote-ai-contracts.png"
-    ]
+    "logoDark": "./assets/logo.png"
   }
 }

@@ -1,0 +1,140 @@
+{
+  "$schema": "https://developers.openai.com/apps-sdk/schemas/chatgpt-app-submission.v1.json",
+  "schema_version": 1,
+  "app_info": {
+    "display_name": "RadarJobs",
+    "subtitle": "Find contract tech jobs",
+    "description": "RadarJobs connects to a user's existing account to check access and setup, search current contract technology opportunities, inspect eligible job details and taxonomy, and review existing personalized recommendations.",
+    "category": "PRODUCTIVITY"
+  },
+  "tools": {
+    "get_my_radarjobs_state": {
+      "annotations": {
+        "readOnlyHint": false,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Reads setup and access state but records bounded operational usage telemetry for the connected account.",
+        "open_world_justification": "Only accesses the authenticated RadarJobs account and its fixed Revenir account links.",
+        "destructive_justification": "Does not delete data, change access, modify billing, or perform irreversible actions."
+      }
+    },
+    "search_contract_jobs": {
+      "annotations": {
+        "readOnlyHint": false,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Searches existing RadarJobs inventory but records bounded operational usage telemetry for the connected account.",
+        "open_world_justification": "Queries bounded RadarJobs inventory and returns only fixed-origin Revenir links rather than arbitrary external pages.",
+        "destructive_justification": "Does not alter jobs, submit applications, send messages, or change subscriptions."
+      }
+    },
+    "get_my_radarjobs_recommendations": {
+      "annotations": {
+        "readOnlyHint": false,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Reads the account's existing recommendation set but records bounded operational usage telemetry.",
+        "open_world_justification": "Only accesses recommendations already held within the authenticated RadarJobs account.",
+        "destructive_justification": "Does not generate recommendations, upload a resume, change profile data, or modify access."
+      }
+    },
+    "get_contract_job": {
+      "annotations": {
+        "readOnlyHint": false,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Retrieves one eligible opportunity but records bounded operational usage telemetry for the connected account.",
+        "open_world_justification": "Reads a bounded RadarJobs record and returns a fixed-origin Revenir detail link.",
+        "destructive_justification": "Does not save, apply to, update, or remove the selected job."
+      }
+    },
+    "get_contract_job_taxonomy": {
+      "annotations": {
+        "readOnlyHint": false,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Reads the fixed RadarJobs taxonomy but records bounded operational usage telemetry for the connected account.",
+        "open_world_justification": "Only accesses the bounded RadarJobs role vocabulary and does not contact arbitrary external entities.",
+        "destructive_justification": "Does not change taxonomy, account data, jobs, or any external system."
+      }
+    }
+  },
+  "test_cases": [
+    {
+      "description": "Check whether the connected RadarJobs account is ready for search and recommendations.",
+      "user_prompt": "Check whether my RadarJobs account is ready to search.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_my_radarjobs_state",
+      "expected_output": "Returns the connected account's access state, setup readiness, feature availability, and relevant fixed Revenir links without billing details.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Search for a bounded set of current contract jobs with explicit requirements.",
+      "user_prompt": "Find up to five remote senior data engineering contracts that allow 1099.",
+      "file_attachment_urls": null,
+      "tools_triggered": "search_contract_jobs",
+      "expected_output": "Returns at most five current matching contract opportunities, preserves the remote, seniority, role, and 1099 filters, and reports any title relaxation.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Read the connected account's existing personalized recommendations.",
+      "user_prompt": "Show my current RadarJobs recommendations.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_my_radarjobs_recommendations",
+      "expected_output": "Returns up to five existing personalized recommendations or a clear setup-required state without starting new processing.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Inspect one eligible job returned by RadarJobs.",
+      "user_prompt": "Show me more about the first RadarJobs result.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_contract_job",
+      "expected_output": "Returns current bounded detail for the selected eligible opportunity with a fixed Revenir URL and no application action.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Look up the supported role taxonomy before forming a search.",
+      "user_prompt": "What RadarJobs taxonomy should I use for data engineering roles?",
+      "file_attachment_urls": null,
+      "tools_triggered": "get_contract_job_taxonomy",
+      "expected_output": "Returns bounded RadarJobs taxonomy identifiers and explains the supported engagement values and title-only stack matching.",
+      "expected_output_url": null
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "description": "Do not invoke RadarJobs for permanent non-technology employment.",
+      "user_prompt": "Find me a permanent registered nurse position.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "RadarJobs should not be invoked because this request is outside contract technology work.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not invoke RadarJobs to edit a resume.",
+      "user_prompt": "Rewrite the experience section of my resume.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "RadarJobs should not be invoked because it does not edit or process resumes through this plugin.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not invoke RadarJobs for purchases or job applications.",
+      "user_prompt": "Buy a RadarJobs subscription and apply to the first job for me.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "RadarJobs should not be invoked because the plugin cannot purchase access, change subscriptions, or submit job applications.",
+      "expected_output_url": null
+    }
+  ]
+}

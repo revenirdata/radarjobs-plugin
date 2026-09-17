@@ -1,23 +1,42 @@
-# Review checklist
+# RadarJobs authenticated submission checklist
 
-- [x] Current official self-service public submission path identified.
-- [x] Public listing distinguished from local, GitHub, workspace and Verified.
-- [x] One remote MCP plugin; no invented app identifier or duplicate backend.
-- [x] Exact product spelling RadarJobs; existing Revenir logo.
-- [x] Three tools; anonymous first run, bounded public query, no model inference.
-- [x] Explicit unknown values, remote limits, engagement evidence and title relaxation.
-- [x] Fixed Revenir result links with existing UTM attribution.
-- [x] Privacy/data-flow, support and acceptable-use information prepared.
-- [x] Positive and negative test definitions supplied; actual outcomes in test evidence.
-- [x] Production engagement-evidence correction deployed and cross-surface regression recorded.
-- [x] Current anonymous policy and cumulative-enumeration limitation documented accurately.
-- [ ] Revenir organization login, verified identity and Apps Management: Write confirmed in portal.
-- [ ] Portal-issued domain challenge, if requested, completed and verified.
-- [ ] Launch countries and final attestations selected by authorized owner.
-- [ ] Owner explicitly approves public submission.
-- [ ] OpenAI review approves this version.
-- [ ] Owner publishes the approved version and verifies actual public visibility.
+## Source and security
 
-Technical installation/deployment outcomes are recorded separately in
-`test-evidence.md`. An unchecked portal requirement is not a broken local plugin,
-but it prevents claiming public submission, listing or Verified status.
+- [x] Five tools inspected against their implementations.
+- [x] Every tool declares all three hints explicitly.
+- [x] Every tool declares an output schema.
+- [x] No tool input solicits credentials, payment details, resumes, or account IDs.
+- [x] OAuth uses authorization code flow, S256 PKCE, resource binding, short-lived
+  access tokens, refresh rotation, replay-family revocation, and a revocation
+  endpoint.
+- [x] Existing RadarJobs identity, profile, membership, and recommendations remain
+  authoritative.
+- [x] No in-chat purchase, checkout, subscription mutation, job application, or
+  message sending.
+- [x] RadarJobs deletion removes plugin grants and tokens.
+
+## Review assets
+
+- [x] Listing copy and privacy/data-flow documentation updated for authentication.
+- [x] Public privacy and terms source updated for authenticated plugin data flow,
+  recipients, retention, user controls, entitlement reuse, and capability limits.
+- [x] Dedicated customer-support page implemented at `/support`.
+- [x] Reviewer demo storyboard and exact prompts prepared.
+- [x] Exactly five positive and three negative submission tests prepared.
+- [ ] Authenticated production MCP and support URL deployed after owner review.
+- [ ] Reviewer account created with usable access and no MFA/email/SMS challenge.
+- [ ] Demo video recorded against deployed production and checked for secrets/PII.
+- [ ] Final production OAuth and cross-account isolation matrix completed.
+
+## Account-bound portal fields
+
+- [ ] Revenir developer/business verification confirmed in the portal.
+- [ ] Apps Management: Write permission confirmed.
+- [ ] Portal-issued domain challenge completed if requested.
+- [ ] Exact launch countries selected by the authorized owner.
+- [ ] Reviewer credentials entered only in the portal, never committed.
+- [ ] Final attestations reviewed and approved by the owner.
+- [ ] Owner manually uploads `chatgpt-app-submission.json` and the demo video.
+
+No submission, review approval, publication, public listing, or Verified status is
+claimed by this repository.
