@@ -11,7 +11,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-ENDPOINT = "https://api.revenirdata.com/radarjobs/mcp"
+ENDPOINT = "https://api.revenirdata.com/radarjobs/mcp-v2"
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs/plugin-publication/search-evidence.json"
 HEADERS = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
