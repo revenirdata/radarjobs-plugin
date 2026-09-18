@@ -2,7 +2,7 @@
 
 Date: September 18, 2026. Candidate version: 2.0.1.
 
-## Verified locally
+## Prior candidate validation
 
 Backend focused tests cover the three-tool descriptor contract, explicit hints,
 output schemas, bounded presentation-ready search, unsupported filters, neutral
@@ -27,10 +27,11 @@ component and route. Repository-wide TypeScript is blocked in this sparse
 worktree by pre-existing missing static image modules, not by a reported error in
 the changed files.
 
-Reviewable branches and current CI are linked below. Production MCP acceptance
-remains required after review and deployment.
+The deployed correction passed final-head backend CI and the distribution package
+passed the skill validator, plugin validator, Python compilation, JSON parsing,
+and stale-reference scan.
 
-- Backend final-head CI: [successful validate run](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35173517484/job/105050080289) for commit `5a0e5d902725b0edffc5f8fa02fd0c9176373b6b`.
+- Backend final-head CI: [successful validate run](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35330848987/job/105554602962) for commit `8462e0824b3ee71b236c357c416d532c074d75da`.
 - Website final-head CI: [successful public-conversion run](https://github.com/revenirdata/revenir-website/actions/runs/35173758345/job/105050811876) and [successful Radar-product run](https://github.com/revenirdata/revenir-website/actions/runs/35173758248/job/105050811969) for commit `a6e0e176fe841cfeb77c000b09fc3f42f5354ee9`.
 
 The official plugin validator passes. `chatgpt-app-submission.json` uses the
@@ -45,15 +46,18 @@ Review branches:
 
 - backend OAuth and tools: [revenir-radar-backend PR #333](https://github.com/revenirdata/revenir-radar-backend/pull/333)
 - consent and support pages: [revenir-website PR #110](https://github.com/revenirdata/revenir-website/pull/110)
-- publication package: [radarjobs-plugin PR #2](https://github.com/revenirdata/radarjobs-plugin/pull/2)
+- direct-search server correction: [revenir-radar-backend PR #346](https://github.com/revenirdata/revenir-radar-backend/pull/346)
+- three-tool publication package: [radarjobs-plugin PR #3](https://github.com/revenirdata/radarjobs-plugin/pull/3)
 
 ## Production status
 
 Production exposes the authenticated three-tool contract at
 `https://api.revenirdata.com/radarjobs/mcp`. Live verification against backend SHA
-`d13b2187e435621e31e49aaa6d15e2d8bfcf2d09` confirmed the exact tool catalog,
+`2e9cef1560c14a65107aaf79a1848796ef618ae4` confirmed MCP version 2.2.1, the exact tool catalog,
 presentation-ready output schema, source and RadarJobs links, and a bounded
-five-result search in 2.596 seconds. A separately cached ChatGPT connector must
+five-result search in 1.872 seconds. The [production deployment](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35331308035)
+and [authenticated verifier](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35331501879)
+both completed successfully. A separately cached ChatGPT connector must
 be reconnected after this catalog change so it does not retain the retired
 account-state and taxonomy tools.
 

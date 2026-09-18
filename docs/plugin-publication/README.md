@@ -27,15 +27,17 @@ The support URL and authenticated MCP are deployed and live-verified values.
 - `privacy-data-flow.md`: OAuth, data use, isolation, disconnect, and deletion.
 - `entitlement-mapping.md`: exact backend state to plugin behavior.
 - `review-checklist.md`: completed source checks and unresolved owner/live steps.
-- `test-evidence.md`: verified local results and explicit production gaps.
+- `test-evidence.md`: verified local and deployed production results.
 - `reviewer-demo.md`: exact video script, prompts, and privacy QA.
 - `reviewer-account-plan.md`: owner-gated synthetic reviewer access and cleanup.
 - `chatgpt-app-submission.json` at repository root: generated partial form data.
 
-The images under `screenshots/` and `assets/` document the earlier anonymous
-release. They are retained as history and must not be uploaded as authenticated
-2.0.1 interaction evidence. The reviewer demo must be recorded from the deployed
-authenticated production flow.
+`search-evidence.json` records the current authenticated three-tool production
+verification. The images under `screenshots/` and `assets/`, the evidence under
+`history/`, and `scripts/build-historical-demo.py` document the earlier anonymous
+release. They are retained as explicitly labeled history and must not be uploaded
+as authenticated 2.0.1 interaction evidence. The reviewer demo must be recorded
+from the deployed authenticated production flow.
 
 ## Submission boundary
 
