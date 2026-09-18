@@ -1,11 +1,13 @@
 # RadarJobs public submission package
 
-Candidate version: 2.0.0. Developer: Revenir.
+Candidate version: 2.0.1. Developer: Revenir.
 
 This directory is the review source of truth for the authenticated RadarJobs
 plugin. The plugin connects to one existing RadarJobs account through OAuth and
-exposes five bounded tools for account state, contract-job search, existing
-recommendations, eligible job detail, and taxonomy.
+exposes three bounded tools for contract-job search, existing recommendations,
+and eligible job detail. Search accepts ordinary role wording and returns
+presentation-ready results without readiness, taxonomy, or per-result detail
+preflights.
 
 ## Portal values
 
@@ -17,8 +19,7 @@ recommendations, eligible job detail, and taxonomy.
 - Authentication: OAuth 2.1 authorization code with S256 PKCE
 - Commerce in ChatGPT: No
 
-The support URL and authenticated MCP are candidate values until their reviewed
-changes are deployed and live-verified.
+The support URL and authenticated MCP are deployed and live-verified values.
 
 ## Contents
 
@@ -33,7 +34,7 @@ changes are deployed and live-verified.
 
 The images under `screenshots/` and `assets/` document the earlier anonymous
 release. They are retained as history and must not be uploaded as authenticated
-2.0.0 interaction evidence. The reviewer demo must be recorded from the deployed
+2.0.1 interaction evidence. The reviewer demo must be recorded from the deployed
 authenticated production flow.
 
 ## Submission boundary

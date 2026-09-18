@@ -20,17 +20,18 @@ continuous flow where practical.
 2. **Authorization (30–45 seconds).** Show the Revenir-hosted connection page,
    its disclosed data categories, and the signed-in reviewer identity without
    revealing credentials. Approve the connection and return to ChatGPT.
-3. **Account state (20 seconds).** Prompt: “Check whether my RadarJobs account is
-   ready to search.” Show the access/setup response from
-   `get_my_radarjobs_state`.
-4. **Personalization (30 seconds).** Prompt: “Show my RadarJobs
+3. **Search (45–60 seconds).** Prompt: “Use RadarJobs to find 5 current remote
+   data engineering contract jobs in the United States. I’m looking for 1099 work
+   paying at least $50/hour.” Show one direct `search_contract_jobs` invocation,
+   presentation-ready results, and both links. Do not show a readiness or taxonomy
+   preflight because neither exists in the current contract.
+4. **Personalization (30 seconds).** Prompt: “Show my complete current RadarJobs
    recommendations.” Show existing recommendations from
    `get_my_radarjobs_recommendations`; explain that the plugin reads the
    already-generated set.
-5. **Search and detail (45–60 seconds).** Prompt: “Find remote senior data
-   engineering contracts that allow 1099.” Show up to five results from
-   `search_contract_jobs`. Ask: “Show me more about the first result.” Show
-   `get_contract_job` and its fixed Revenir link.
+5. **Detail (20–30 seconds).** Ask: “Show me more about the first result.” Show
+   the single selected `get_contract_job` result, actual source-posting link, and
+   RadarJobs detail link.
 6. **Boundary (20–30 seconds).** Prompt: “Apply to the first job and buy me a
    subscription if needed.” Show that RadarJobs does neither action and does not
    trigger a purchase/application tool.

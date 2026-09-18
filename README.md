@@ -10,12 +10,14 @@ upload, or new recommendation generation in ChatGPT.
 
 ## Tools
 
-- `get_my_radarjobs_state`: read account access and setup readiness.
 - `search_contract_jobs`: search current contract-tech inventory with bounded
-  filters and at most five results.
+  filters and at most five presentation-ready results.
 - `get_my_radarjobs_recommendations`: read the existing personalized set.
 - `get_contract_job`: inspect an eligible opportunity.
-- `get_contract_job_taxonomy`: read supported role identifiers.
+
+Search accepts ordinary role wording directly. It does not require an account
+state or taxonomy preflight, and its result already includes the fields and links
+needed for presentation. Clients must not call detail once per search result.
 
 Search supports documented 1099, C2C, and W-2 contract arrangements. Unknown
 compensation stays unknown. Remote does not guarantee worldwide eligibility.
@@ -31,10 +33,9 @@ accept an account ID or credential.
 
 ## Distribution status
 
-Version 2.0.0 is an authenticated release candidate. Its source and review
-materials are prepared, but it must not be represented as deployed, submitted,
-approved, or publicly listed until the corresponding backend and website changes
-pass review, deploy, and live acceptance.
+Version 2.0.1 documents the deployed authenticated three-tool contract. It must
+not be represented as submitted, approved, or publicly listed until those portal
+steps actually occur.
 
 [Privacy](https://www.revenirdata.com/privacy) ·
 [Terms](https://www.revenirdata.com/terms) ·

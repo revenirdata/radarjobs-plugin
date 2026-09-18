@@ -1,6 +1,6 @@
 {
   "name": "radarjobs",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Use your RadarJobs account to search contract tech jobs and review personalized recommendations.",
   "author": {
     "name": "Revenir",
@@ -25,7 +25,7 @@
   "interface": {
     "displayName": "RadarJobs",
     "shortDescription": "Find contract tech jobs",
-    "longDescription": "Connect your RadarJobs account to search current contract technology opportunities, inspect job details and taxonomy, check account readiness, and review existing personalized recommendations. RadarJobs respects the access already attached to your account. It does not apply to jobs or sell subscriptions in ChatGPT.",
+    "longDescription": "Connect your RadarJobs account to search current contract technology opportunities, inspect selected job details, and review existing personalized recommendations. Search returns presentation-ready results with the actual source posting and RadarJobs detail links in one call. RadarJobs does not apply to jobs or sell subscriptions in ChatGPT.",
     "developerName": "Revenir",
     "category": "Productivity",
     "capabilities": [],
@@ -33,9 +33,9 @@
     "privacyPolicyURL": "https://www.revenirdata.com/privacy",
     "termsOfServiceURL": "https://www.revenirdata.com/terms",
     "defaultPrompt": [
-      "Find remote data engineering contracts.",
+      "Find five remote data engineering contracts that allow 1099 and pay at least $50 per hour.",
       "Show my RadarJobs recommendations.",
-      "Check whether my RadarJobs account is ready to search."
+      "Tell me more about the first RadarJobs result."
     ],
     "brandColor": "#23DBC2",
     "composerIcon": "./assets/icon.png",

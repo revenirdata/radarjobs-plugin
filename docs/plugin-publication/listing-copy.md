@@ -5,7 +5,7 @@
 | Name | RadarJobs |
 | Subtitle | Find contract tech jobs |
 | Developer | Revenir |
-| Version | 2.0.0 |
+| Version | 2.0.1 |
 | Category | Productivity |
 | Website | https://www.revenirdata.com/radar/jobs |
 | Support | https://www.revenirdata.com/support |
@@ -17,9 +17,9 @@
 ## Description
 
 Connect your RadarJobs account to search current contract technology
-opportunities, inspect job details and taxonomy, check account readiness, and
-review your existing personalized recommendations. RadarJobs uses the access and
-setup state already attached to your account.
+opportunities, inspect a selected job, and review your existing personalized
+recommendations. Search accepts ordinary role wording and returns presentation-ready
+results with both the actual source posting and RadarJobs detail links.
 
 RadarJobs does not submit applications, save jobs, upload resumes, sell access,
 start checkout, or change subscriptions in ChatGPT. Search supports documented
@@ -37,12 +37,10 @@ not advertise plans or link directly to checkout.
 
 ## Capabilities
 
-- Read the connected account's RadarJobs setup and access state.
 - Search current contract technology inventory with bounded filters and at most
   five results.
 - Read existing personalized recommendations; no recommendation generation.
 - Inspect an eligible opportunity by UUID.
-- Read RadarJobs taxonomy identifiers.
 
 No job application, saved-job mutation, alert mutation, resume processing,
 billing, subscription, email, crawling, or new model inference is exposed.
@@ -57,6 +55,6 @@ separately asks about the developer's business model.
 
 ## Release notes
 
-Authenticated RadarJobs account connection with five bounded tools, S256 PKCE,
+Authenticated RadarJobs account connection with three bounded tools, S256 PKCE,
 opaque rotating tokens, revocation, shared account entitlements, personalized
 recommendation reads, and no in-chat commerce.
