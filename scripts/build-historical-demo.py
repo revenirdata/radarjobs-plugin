@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PUB = ROOT / "docs/plugin-publication"
-evidence = json.loads((PUB / "search-evidence.json").read_text(encoding="utf-8"))
+evidence = json.loads((PUB / "history" / "anonymous-search-evidence.json").read_text(encoding="utf-8"))
 
 
 def esc(value):
