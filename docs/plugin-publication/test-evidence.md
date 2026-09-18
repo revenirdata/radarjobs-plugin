@@ -1,6 +1,6 @@
 # RadarJobs authenticated release evidence
 
-Date: September 18, 2026. Candidate version: 2.0.2.
+Date: September 18, 2026. Candidate version: 2.0.3.
 
 ## Prior candidate validation
 
@@ -48,21 +48,24 @@ Review branches:
 - consent and support pages: [revenir-website PR #110](https://github.com/revenirdata/revenir-website/pull/110)
 - direct-search server correction: [revenir-radar-backend PR #346](https://github.com/revenirdata/revenir-radar-backend/pull/346)
 - versioned MCP transport URL: [revenir-radar-backend PR #347](https://github.com/revenirdata/revenir-radar-backend/pull/347)
+- distinct v2 OAuth resource: [revenir-radar-backend PR #348](https://github.com/revenirdata/revenir-radar-backend/pull/348)
 - three-tool publication package: [radarjobs-plugin PR #3](https://github.com/revenirdata/radarjobs-plugin/pull/3)
 
 ## Production status
 
 Production exposes the authenticated three-tool contract at
 `https://api.revenirdata.com/radarjobs/mcp-v2`. Live verification against backend SHA
-`f6056ee81fa5d5b35847964270512e87dcef8c01` confirmed that the versioned transport is deployed,
-requires OAuth, and advertises the canonical RadarJobs protected-resource metadata. The
+`2dbbb5460d008356ece24ba92352755938cf5b13` confirmed that the versioned transport is deployed,
+requires OAuth, and advertises its distinct protected-resource metadata with the exact v2
+resource identifier. The
 authenticated verifier for the same mounted application confirmed MCP version 2.2.1, the exact tool catalog,
 presentation-ready output schema, source and RadarJobs links, and a bounded
 five-result search in 1.872 seconds. The [production deployment](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35331308035)
 and [authenticated verifier](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35331501879)
-both completed successfully. The versioned route was deployed by [production run 35335551713](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35335551713).
-Its distinct transport URL prevents an existing ChatGPT connector cache from retaining
-the retired account-state and taxonomy tools while preserving the same OAuth resource.
+both completed successfully. The distinct v2 resource was deployed by [production run 35337688998](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35337688998)
+after [final-head CI](https://github.com/revenirdata/revenir-radar-backend/actions/runs/35337332048) passed the canonical and v2 OAuth lifecycle tests.
+The v2 transport now identifies itself as the v2 OAuth resource, preventing a new connector
+from resolving back to the original resource's retired account-state and taxonomy catalog.
 
 The deployed support URL is https://www.revenirdata.com/support and returns the
 reviewed customer-support surface.
@@ -72,4 +75,4 @@ reviewed customer-support surface.
 The prior anonymous release was verified against backend production SHA
 `159b9eb93fcee1f9000ca085f532cfd3f4e155aa`, including the shared
 engagement-evidence correction. That evidence establishes inventory correctness
-but does not establish authenticated version 2.0.2 behavior.
+but does not establish authenticated version 2.0.3 behavior.
