@@ -5,13 +5,13 @@
 | Name | RadarJobs |
 | Subtitle | Find contract tech jobs |
 | Developer | Revenir |
-| Version | 2.0.1 |
+| Version | 2.0.2 |
 | Category | Productivity |
 | Website | https://www.revenirdata.com/radar/jobs |
 | Support | https://www.revenirdata.com/support |
 | Privacy | https://www.revenirdata.com/privacy |
 | Terms | https://www.revenirdata.com/terms |
-| MCP URL | https://api.revenirdata.com/radarjobs/mcp |
+| MCP URL | https://api.revenirdata.com/radarjobs/mcp-v2 |
 | Authentication | OAuth 2.1 authorization code with S256 PKCE |
 
 ## Description

@@ -26,14 +26,14 @@ Closest matching may relax only the title and reports that relaxation.
 ## Connection
 
 The production MCP URL is
-`https://api.revenirdata.com/radarjobs/mcp`. ChatGPT discovers OAuth metadata,
+`https://api.revenirdata.com/radarjobs/mcp-v2`. ChatGPT discovers OAuth metadata,
 opens a Revenir-hosted consent page, and returns after the user approves the
 `radarjobs:read` scope. The server derives identity from the token; tools never
 accept an account ID or credential.
 
 ## Distribution status
 
-Version 2.0.1 documents the deployed authenticated three-tool contract. It must
+Version 2.0.2 documents the deployed authenticated three-tool contract. It must
 not be represented as submitted, approved, or publicly listed until those portal
 steps actually occur.
 
