@@ -13,8 +13,8 @@
 5. The MCP server derives the Radar account solely from the verified token
    subject. No tool accepts an account ID, password, API key, card detail, resume,
    or OAuth token as model-supplied input.
-6. Tools read the connected account's setup/access state, current contract-job
-   inventory, existing recommendation set, eligible job detail, or taxonomy.
+6. Tools read current contract-job inventory, the connected account's existing
+   recommendation set, or one eligible job detail record.
    They never start checkout, modify billing, submit applications, send messages,
    crawl providers, or launch paid inference.
 7. Every tool call records bounded account telemetry in the existing Radar
@@ -27,15 +27,13 @@
 
 ## Data returned to ChatGPT
 
-- account access state and setup readiness;
 - requested job results and eligible job detail;
 - existing personalized recommendation results;
-- public taxonomy identifiers;
-- fixed-origin RadarJobs and account links.
+- provider source-posting links already stored by RadarJobs;
+- fixed-origin RadarJobs links.
 
 No payment-card data, password, API key, raw resume text, complete profile,
-internal score, source application URL, or unrestricted provider metadata is
-returned.
+internal score, or unrestricted provider metadata is returned.
 
 ## Scope and isolation
 

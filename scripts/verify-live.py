@@ -1,7 +1,8 @@
-"""Anonymous acceptance matrix; standard library only, no credentials or model calls."""
+"""Authenticated production acceptance; standard library only, no model calls."""
 
 import json
 import html
+import os
 import sys
 import time
 import urllib.error
@@ -14,6 +15,9 @@ ENDPOINT = "https://api.revenirdata.com/radarjobs/mcp"
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs/plugin-publication/search-evidence.json"
 HEADERS = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
+ACCESS_TOKEN = os.environ.get("RADARJOBS_ACCESS_TOKEN")
+if ACCESS_TOKEN:
+    HEADERS["Authorization"] = f"Bearer {ACCESS_TOKEN}"
 TARGET_OPPORTUNITY_ID = "3f5785c2-0378-4896-ae1a-8b297a48bbd4"
 sequence = 0
 
@@ -58,6 +62,8 @@ def verify_links(evidence):
     assert detail["structuredContent"]["job"]["id"] == jobs[0]["id"]
     evidence["result_links"] = []
     for job in {job["id"]: job for job in jobs}.values():
+        source = urllib.parse.urlsplit(job["source_posting_url"])
+        assert source.scheme == "https" and source.netloc
         started = time.perf_counter()
         with urllib.request.urlopen(job["radarjobs_url"], timeout=40) as response:
             body = html.unescape(response.read().decode())
@@ -107,18 +113,24 @@ def verify_engagement_resolution(evidence):
 
 
 def main():
+    if not ACCESS_TOKEN:
+        raise SystemExit("Set RADARJOBS_ACCESS_TOKEN without echoing it, then rerun verification.")
     if sys.argv[1:] == ["--links-only"]:
         verify_links(json.loads(OUTPUT.read_text(encoding="utf-8")))
         return
     evidence = {"checked_at": datetime.now(timezone.utc).isoformat(), "endpoint": ENDPOINT,
-                "authentication": "none", "cases": []}
+                "authentication": "oauth_bearer", "cases": []}
     evidence["initialize"] = rpc("initialize", {"protocolVersion": "2025-11-25", "capabilities": {},
         "clientInfo": {"name": "radarjobs-acceptance", "version": "1.0.0"}})
     evidence["tools"] = rpc("tools/list", {})
     tools = evidence["tools"]["response"]["result"]["tools"]
     assert {t["name"] for t in tools} == {
-        "search_contract_jobs", "get_contract_job", "get_contract_job_taxonomy"}
-    evidence["taxonomy"] = call("get_contract_job_taxonomy", {"parent_id": "data"})
+        "search_contract_jobs", "get_my_radarjobs_recommendations", "get_contract_job"}
+    search_tool = next(tool for tool in tools if tool["name"] == "search_contract_jobs")
+    serialized_search_tool = json.dumps(search_tool)
+    assert "get_my_radarjobs_state" not in serialized_search_tool
+    assert "get_contract_job_taxonomy" not in serialized_search_tool
+    assert "no account preflight or vocabulary lookup" in serialized_search_tool.lower()
     first_job = None
     for index, (name, filters) in enumerate(CASES):
         result = call("search_contract_jobs", {"filters": filters, "limit": 5})

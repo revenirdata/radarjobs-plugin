@@ -1,12 +1,12 @@
 # RadarJobs authenticated release evidence
 
-Date: September 16, 2026. Candidate version: 2.0.0.
+Date: September 18, 2026. Candidate version: 2.0.1.
 
 ## Verified locally
 
-Backend focused tests cover the five-tool descriptor contract, explicit hints,
-output schemas, bounded search, unsupported filters, neutral entitlement
-failure, taxonomy, fixed-origin job projection, guard limits, OAuth metadata,
+Backend focused tests cover the three-tool descriptor contract, explicit hints,
+output schemas, bounded presentation-ready search, unsupported filters, neutral
+entitlement failure, source and RadarJobs links, guard limits, OAuth metadata,
 unauthenticated MCP rejection, and RadarJobs-deletion grant cleanup.
 The current focused result is **51 passed, 7 skipped**. The skips are
 PostgreSQL-backed tests because Docker Desktop was unavailable locally. The
@@ -38,7 +38,7 @@ Apps SDK `$schema` URL required by the submission portal and installed OpenAI
 submission skill. That URL currently redirects to the `/plugins/` schema, whose
 internal `$schema` constant still names the redirected URL; after substituting
 only that upstream constant, the payload validates against the remaining live
-Draft 2020-12 schema. It contains five tools, exactly five positive tests, and
+Draft 2020-12 schema. It contains three tools, exactly five positive tests, and
 exactly three negative tests.
 
 Review branches:
@@ -49,18 +49,20 @@ Review branches:
 
 ## Production status
 
-The currently deployed MCP still represents the previous anonymous version.
-Version 2.0.0 must not be uploaded or demonstrated as complete until the reviewed
-backend and website changes are deployed and the live endpoint exposes OAuth and
-the five authenticated tools.
+Production exposes the authenticated three-tool contract at
+`https://api.revenirdata.com/radarjobs/mcp`. Live verification against backend SHA
+`d13b2187e435621e31e49aaa6d15e2d8bfcf2d09` confirmed the exact tool catalog,
+presentation-ready output schema, source and RadarJobs links, and a bounded
+five-result search in 2.596 seconds. A separately cached ChatGPT connector must
+be reconnected after this catalog change so it does not retain the retired
+account-state and taxonomy tools.
 
-The support URL is intended to be
-https://www.revenirdata.com/support. It becomes a valid submission value only
-after the reviewed website change is deployed and returns HTTP 200.
+The deployed support URL is https://www.revenirdata.com/support and returns the
+reviewed customer-support surface.
 
 ## Historical evidence
 
 The prior anonymous release was verified against backend production SHA
 `159b9eb93fcee1f9000ca085f532cfd3f4e155aa`, including the shared
 engagement-evidence correction. That evidence establishes inventory correctness
-but does not establish authenticated version 2.0.0 behavior.
+but does not establish authenticated version 2.0.1 behavior.
