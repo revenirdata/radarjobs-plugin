@@ -1,6 +1,6 @@
 # RadarJobs public submission package
 
-Candidate version: 2.0.2. Developer: Revenir.
+Candidate version: 2.0.3. Developer: Revenir.
 
 This directory is the review source of truth for the authenticated RadarJobs
 plugin. The plugin connects to one existing RadarJobs account through OAuth and
@@ -36,7 +36,7 @@ The support URL and authenticated MCP are deployed and live-verified values.
 verification. The images under `screenshots/` and `assets/`, the evidence under
 `history/`, and `scripts/build-historical-demo.py` document the earlier anonymous
 release. They are retained as explicitly labeled history and must not be uploaded
-as authenticated 2.0.2 interaction evidence. The reviewer demo must be recorded
+as authenticated 2.0.3 interaction evidence. The reviewer demo must be recorded
 from the deployed authenticated production flow.
 
 ## Submission boundary

@@ -33,7 +33,7 @@ accept an account ID or credential.
 
 ## Distribution status
 
-Version 2.0.2 documents the deployed authenticated three-tool contract. It must
+Version 2.0.3 documents the deployed authenticated three-tool contract. It must
 not be represented as submitted, approved, or publicly listed until those portal
 steps actually occur.
 

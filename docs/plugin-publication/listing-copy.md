@@ -5,7 +5,7 @@
 | Name | RadarJobs |
 | Subtitle | Find contract tech jobs |
 | Developer | Revenir |
-| Version | 2.0.2 |
+| Version | 2.0.3 |
 | Category | Productivity |
 | Website | https://www.revenirdata.com/radar/jobs |
 | Support | https://www.revenirdata.com/support |
