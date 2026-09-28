@@ -1,10 +1,10 @@
 # RadarJobs public submission package
 
-Candidate version: 2.0.3. Developer: Revenir.
+Candidate version: 3.0.0. Developer: Revenir.
 
 This directory is the review source of truth for the authenticated RadarJobs
 plugin. The plugin connects to one existing RadarJobs account through OAuth and
-exposes three bounded tools for contract-job search, existing recommendations,
+exposes three bounded tools for U.S. technology-job search, existing recommendations,
 and eligible job detail. Search accepts ordinary role wording and returns
 presentation-ready results without readiness, taxonomy, or per-result detail
 preflights.
@@ -15,11 +15,12 @@ preflights.
 - Support: https://www.revenirdata.com/support
 - Privacy: https://www.revenirdata.com/privacy
 - Terms: https://www.revenirdata.com/terms
-- MCP: https://api.revenirdata.com/radarjobs/mcp-v2
+- MCP: https://api.revenirdata.com/radarjobs/mcp-v3
 - Authentication: OAuth 2.1 authorization code with S256 PKCE
 - Commerce in ChatGPT: No
 
-The support URL and authenticated MCP are deployed and live-verified values.
+The support URL and v3 MCP transport/OAuth challenge are deployed and live-verified.
+The reviewer OAuth interaction remains part of the final portal test.
 
 ## Contents
 
@@ -32,11 +33,11 @@ The support URL and authenticated MCP are deployed and live-verified values.
 - `reviewer-account-plan.md`: owner-gated synthetic reviewer access and cleanup.
 - `chatgpt-app-submission.json` at repository root: generated partial form data.
 
-`search-evidence.json` records the current authenticated three-tool production
+`search-evidence.json` records the prior authenticated contract-only production
 verification. The images under `screenshots/` and `assets/`, the evidence under
 `history/`, and `scripts/build-historical-demo.py` document the earlier anonymous
 release. They are retained as explicitly labeled history and must not be uploaded
-as authenticated 2.0.3 interaction evidence. The reviewer demo must be recorded
+as authenticated 3.0.0 interaction evidence. The reviewer demo must be recorded
 from the deployed authenticated production flow.
 
 ## Submission boundary

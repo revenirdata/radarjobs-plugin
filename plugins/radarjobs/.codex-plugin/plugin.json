@@ -1,7 +1,7 @@
 {
   "name": "radarjobs",
-  "version": "2.0.3",
-  "description": "Use your RadarJobs account to search contract tech jobs and review personalized recommendations.",
+  "version": "3.0.0",
+  "description": "Use your RadarJobs account to search current U.S. tech jobs and review personalized recommendations.",
   "author": {
     "name": "Revenir",
     "email": "support@revenirdata.com",
@@ -24,8 +24,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "RadarJobs",
-    "shortDescription": "Find contract tech jobs",
-    "longDescription": "Connect your RadarJobs account to search current contract technology opportunities, inspect selected job details, and review existing personalized recommendations. Search returns presentation-ready results with the actual source posting and RadarJobs detail links in one call. RadarJobs does not apply to jobs or sell subscriptions in ChatGPT.",
+    "shortDescription": "Find current tech jobs",
+    "longDescription": "Connect your RadarJobs account to search current U.S. technology jobs across full-time and contract work, inspect selected job details, and review personalized recommendations. Search returns presentation-ready results with the actual source posting and RadarJobs detail links in one call. RadarJobs does not apply to jobs or sell subscriptions in ChatGPT.",
     "developerName": "Revenir",
     "category": "Productivity",
     "capabilities": [],
@@ -33,7 +33,7 @@
     "privacyPolicyURL": "https://www.revenirdata.com/privacy",
     "termsOfServiceURL": "https://www.revenirdata.com/terms",
     "defaultPrompt": [
-      "Find five remote data engineering contracts that allow 1099 and pay at least $50 per hour.",
+      "Find five current remote data engineering jobs in the United States.",
       "Show my RadarJobs recommendations.",
       "Tell me more about the first RadarJobs result."
     ],

@@ -3,41 +3,29 @@
   "schema_version": 1,
   "app_info": {
     "display_name": "RadarJobs",
-    "subtitle": "Find contract tech jobs",
-    "description": "RadarJobs connects to a user's existing account to search current contract technology opportunities, inspect one selected job, and review existing personalized recommendations. Search accepts ordinary role wording and returns presentation-ready results with the actual source posting and RadarJobs detail links.",
+    "subtitle": "Find current tech jobs",
+    "description": "RadarJobs connects to a user's existing account to search current U.S. technology jobs across ordinary W-2 employment and contract work, inspect one selected job, and review personalized recommendations. Results include normalized employment details, source evidence, freshness, the actual source posting, and a separate RadarJobs detail link.",
     "category": "PRODUCTIVITY"
   },
   "tools": {
-    "search_contract_jobs": {
-      "annotations": {
-        "readOnlyHint": false,
-        "openWorldHint": false,
-        "destructiveHint": false
-      },
+    "search_tech_jobs": {
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
       "justifications": {
         "read_only_justification": "Searches existing RadarJobs inventory but records bounded operational usage telemetry for the connected account.",
-        "open_world_justification": "Queries bounded RadarJobs inventory and returns the stored provider source-posting URL plus the fixed-origin RadarJobs detail URL for each match.",
+        "open_world_justification": "Queries bounded RadarJobs inventory and returns stored provider source-posting URLs plus fixed-origin RadarJobs detail URLs.",
         "destructive_justification": "Does not alter jobs, submit applications, send messages, or change subscriptions."
       }
     },
     "get_my_radarjobs_recommendations": {
-      "annotations": {
-        "readOnlyHint": false,
-        "openWorldHint": false,
-        "destructiveHint": false
-      },
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
       "justifications": {
         "read_only_justification": "Reads the account's existing recommendation set but records bounded operational usage telemetry.",
         "open_world_justification": "Only accesses recommendations already held within the authenticated RadarJobs account.",
-        "destructive_justification": "Does not generate recommendations, upload a resume, change profile data, or modify access."
+        "destructive_justification": "Does not upload a resume, change profile data, submit applications, or modify access."
       }
     },
-    "get_contract_job": {
-      "annotations": {
-        "readOnlyHint": false,
-        "openWorldHint": false,
-        "destructiveHint": false
-      },
+    "get_tech_job": {
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
       "justifications": {
         "read_only_justification": "Retrieves one eligible opportunity but records bounded operational usage telemetry for the connected account.",
         "open_world_justification": "Reads one bounded RadarJobs record and returns its stored provider source-posting URL plus the fixed-origin RadarJobs detail URL.",
@@ -47,11 +35,19 @@
   },
   "test_cases": [
     {
-      "description": "Search directly for a bounded set of current contract jobs with explicit requirements.",
-      "user_prompt": "Find five current remote data engineering contracts in the United States that allow 1099 and pay at least $50 per hour.",
+      "description": "Search current U.S. technology jobs without imposing a contract filter.",
+      "user_prompt": "Find five current remote data engineering jobs in the United States.",
       "file_attachment_urls": null,
-      "tools_triggered": "search_contract_jobs",
-      "expected_output": "Calls search directly without readiness or taxonomy preflights and returns up to five current matches with authoritative contract classification, pay, source posting links, and RadarJobs detail links.",
+      "tools_triggered": "search_tech_jobs",
+      "expected_output": "Calls search directly and returns up to five current technology jobs across eligible employment types, with employment details, pay when known, source posting links, and RadarJobs detail links.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Preserve RadarJobs' deep contract filters within the broader tech inventory.",
+      "user_prompt": "Find current remote AI engineer work that allows C2C.",
+      "file_attachment_urls": null,
+      "tools_triggered": "search_tech_jobs",
+      "expected_output": "Passes ordinary role wording directly to search, preserves the C2C and remote constraints, and presents the returned classifications without editorial re-validation.",
       "expected_output_url": null
     },
     {
@@ -59,41 +55,33 @@
       "user_prompt": "Show my complete current RadarJobs recommendations in ranked order.",
       "file_attachment_urls": null,
       "tools_triggered": "get_my_radarjobs_recommendations",
-      "expected_output": "Returns the existing ranked personalized recommendation set without starting new processing or calling search, taxonomy, account-state, or per-result detail tools.",
+      "expected_output": "Returns the existing ranked personalized recommendation set without starting checkout or calling search or per-result detail tools.",
       "expected_output_url": null
     },
     {
-      "description": "Inspect one eligible job returned by RadarJobs.",
+      "description": "Inspect one eligible technology job identified by RadarJobs.",
       "user_prompt": "Tell me more about the first RadarJobs result.",
       "file_attachment_urls": null,
-      "tools_triggered": "get_contract_job",
-      "expected_output": "Returns current bounded detail for the selected opportunity with supporting evidence, the actual source-posting URL, and the RadarJobs detail URL.",
-      "expected_output_url": null
-    },
-    {
-      "description": "Search using ordinary role wording without requiring taxonomy language.",
-      "user_prompt": "Find remote AI engineer contract work that allows C2C.",
-      "file_attachment_urls": null,
-      "tools_triggered": "search_contract_jobs",
-      "expected_output": "Passes the ordinary role wording directly to search, preserves the C2C and remote constraints, and presents the returned classifications without editorial re-validation.",
+      "tools_triggered": "get_tech_job",
+      "expected_output": "Returns current bounded detail for the selected opportunity with employment information, supporting evidence, the actual source-posting URL, and the RadarJobs detail URL.",
       "expected_output_url": null
     },
     {
       "description": "Return a complete zero-result answer without retrying or silently relaxing filters.",
-      "user_prompt": "Find current remote quantum COBOL compiler contracts paying at least $900 per hour.",
+      "user_prompt": "Find current remote quantum COBOL compiler jobs paying at least $900 per hour.",
       "file_attachment_urls": null,
-      "tools_triggered": "search_contract_jobs",
-      "expected_output": "Calls search once, reports the complete exact-match result, and asks which one constraint the user wants to broaden without invoking a retired or follow-up tool.",
+      "tools_triggered": "search_tech_jobs",
+      "expected_output": "Calls search once, reports the complete exact-match result, and asks which one constraint the user wants to broaden without invoking another tool.",
       "expected_output_url": null
     }
   ],
   "negative_test_cases": [
     {
-      "description": "Do not invoke RadarJobs for permanent non-technology employment.",
-      "user_prompt": "Find me a permanent registered nurse position.",
+      "description": "Do not invoke RadarJobs for non-technology employment.",
+      "user_prompt": "Find me a registered nurse position.",
       "file_attachment_urls": null,
       "tools_triggered": null,
-      "expected_output": "RadarJobs should not be invoked because this request is outside contract technology work.",
+      "expected_output": "RadarJobs should not be invoked because the request is outside technology work.",
       "expected_output_url": null
     },
     {

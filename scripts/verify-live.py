@@ -11,7 +11,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-ENDPOINT = "https://api.revenirdata.com/radarjobs/mcp-v2"
+ENDPOINT = "https://api.revenirdata.com/radarjobs/mcp-v3"
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "docs/plugin-publication/search-evidence.json"
 HEADERS = {"Content-Type": "application/json", "Accept": "application/json, text/event-stream"}
@@ -40,23 +40,24 @@ def call(name, arguments):
 
 
 CASES = [
-    ("Remote 1099 senior data engineering", {"remote": True, "engagement_model": ["1099"],
+    ("Remote senior data engineering", {"remote": True,
      "level": ["senior"], "job_subfamily": ["data_engineering"]}),
     ("C2C Snowflake contracts", {"engagement_model": ["c2c"], "title_contains": "Snowflake"}),
     ("Remote AI engineer contracts", {"remote": True, "job_class": ["ai_engineer"]}),
-    ("Contracts at least 50 USD/hour", {"rate_min": 50, "currency": "USD"}),
+    ("1099 work at least 50 USD/hour", {"engagement_model": ["1099"],
+     "rate_min": 50, "currency": "USD"}),
     ("Forward deployed or AI engineer", {"title_contains": "forward deployed engineer",
      "job_class": ["ai_engineer"], "match_mode": "closest"}),
     ("Intentional zero results", {"title_contains": "zzradarjobsacceptancezeromatchzz"}),
     ("Malformed unsupported skills field", {"skills": ["Snowflake"]}),
-    ("Permanent non-contract nursing", {"engagement_model": ["permanent"], "job_class": ["nurse"]}),
+    ("Non-technology nursing", {"job_class": ["nurse"]}),
 ]
 
 
 def verify_links(evidence):
     jobs = [case["response"]["result"]["structuredContent"]["jobs"][0]
             for case in evidence["cases"][:5]]
-    evidence["detail"] = call("get_contract_job", {"opportunity_id": jobs[0]["id"]})
+    evidence["detail"] = call("get_tech_job", {"opportunity_id": jobs[0]["id"]})
     detail = evidence["detail"]["response"]["result"]
     assert not detail.get("isError")
     assert detail["structuredContent"]["job"]["id"] == jobs[0]["id"]
@@ -84,14 +85,14 @@ def verify_links(evidence):
 def verify_engagement_resolution(evidence):
     common = {"title_contains": "Snowflake AWS Redshift"}
     strict_1099 = call(
-        "search_contract_jobs",
+        "search_tech_jobs",
         {"filters": {**common, "engagement_model": ["1099"]}, "limit": 5},
     )
     w2 = call(
-        "search_contract_jobs",
+        "search_tech_jobs",
         {"filters": {**common, "engagement_model": ["w2_contract"]}, "limit": 5},
     )
-    detail = call("get_contract_job", {"opportunity_id": TARGET_OPPORTUNITY_ID})
+    detail = call("get_tech_job", {"opportunity_id": TARGET_OPPORTUNITY_ID})
     strict_jobs = strict_1099["response"]["result"]["structuredContent"]["jobs"]
     w2_jobs = w2["response"]["result"]["structuredContent"]["jobs"]
     target = detail["response"]["result"]["structuredContent"]["job"]
@@ -125,15 +126,15 @@ def main():
     evidence["tools"] = rpc("tools/list", {})
     tools = evidence["tools"]["response"]["result"]["tools"]
     assert {t["name"] for t in tools} == {
-        "search_contract_jobs", "get_my_radarjobs_recommendations", "get_contract_job"}
-    search_tool = next(tool for tool in tools if tool["name"] == "search_contract_jobs")
+        "search_tech_jobs", "get_my_radarjobs_recommendations", "get_tech_job"}
+    search_tool = next(tool for tool in tools if tool["name"] == "search_tech_jobs")
     serialized_search_tool = json.dumps(search_tool)
     assert "get_my_radarjobs_state" not in serialized_search_tool
     assert "get_contract_job_taxonomy" not in serialized_search_tool
     assert "no account preflight or vocabulary lookup" in serialized_search_tool.lower()
     first_job = None
     for index, (name, filters) in enumerate(CASES):
-        result = call("search_contract_jobs", {"filters": filters, "limit": 5})
+        result = call("search_tech_jobs", {"filters": filters, "limit": 5})
         payload = result["response"]["result"]
         error = payload.get("isError", False)
         if index >= 6:

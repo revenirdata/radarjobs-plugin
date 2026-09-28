@@ -1,6 +1,6 @@
 # RadarJobs
 
-**Find contract tech jobs with your RadarJobs account.** By
+**Find current U.S. tech jobs with your RadarJobs account.** By
 [Revenir](https://www.revenirdata.com).
 
 RadarJobs connects through OAuth and reuses the account, setup, access, and
@@ -10,30 +10,30 @@ upload, or new recommendation generation in ChatGPT.
 
 ## Tools
 
-- `search_contract_jobs`: search current contract-tech inventory with bounded
+- `search_tech_jobs`: search current U.S. technology inventory with bounded
   filters and at most five presentation-ready results.
 - `get_my_radarjobs_recommendations`: read the existing personalized set.
-- `get_contract_job`: inspect an eligible opportunity.
+- `get_tech_job`: inspect an eligible opportunity.
 
 Search accepts ordinary role wording directly. It does not require an account
 state or taxonomy preflight, and its result already includes the fields and links
 needed for presentation. Clients must not call detail once per search result.
 
-Search supports documented 1099, C2C, and W-2 contract arrangements. Unknown
+Search covers ordinary W-2 employment and documented 1099, C2C, and W-2 contract arrangements. Unknown
 compensation stays unknown. Remote does not guarantee worldwide eligibility.
 Closest matching may relax only the title and reports that relaxation.
 
 ## Connection
 
 The production MCP URL is
-`https://api.revenirdata.com/radarjobs/mcp-v2`. ChatGPT discovers OAuth metadata,
+`https://api.revenirdata.com/radarjobs/mcp-v3`. ChatGPT discovers OAuth metadata,
 opens a Revenir-hosted consent page, and returns after the user approves the
 `radarjobs:read` scope. The server derives identity from the token; tools never
 accept an account ID or credential.
 
 ## Distribution status
 
-Version 2.0.3 documents the deployed authenticated three-tool contract. It must
+Version 3.0.0 documents the authenticated all-tech three-tool contract. It must
 not be represented as submitted, approved, or publicly listed until those portal
 steps actually occur.
 

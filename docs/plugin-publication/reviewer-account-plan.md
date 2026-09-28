@@ -10,7 +10,7 @@ Do not create this account until the owner approves production test state.
   approved Revenir secret manager; never commit it.
 - Require no MFA, email confirmation, SMS confirmation, private network, or
   Google-only login.
-- Complete a synthetic contract-tech profile and preferences with no real
+- Complete a synthetic technology-job profile and preferences with no real
   person's resume, contact details, or employment history.
 - Generate one normal recommendation set through the existing reviewed product
   workflow.
