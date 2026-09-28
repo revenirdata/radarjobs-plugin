@@ -2,7 +2,7 @@
   "mcpServers": {
     "radarjobs": {
       "type": "http",
-      "url": "https://api.revenirdata.com/radarjobs/mcp-v2"
+      "url": "https://api.revenirdata.com/radarjobs/mcp-v3"
     }
   }
 }

@@ -13,7 +13,7 @@
 5. The MCP server derives the Radar account solely from the verified token
    subject. No tool accepts an account ID, password, API key, card detail, resume,
    or OAuth token as model-supplied input.
-6. Tools read current contract-job inventory, the connected account's existing
+6. Tools read current U.S. technology-job inventory, the connected account's existing
    recommendation set, or one eligible job detail record.
    They never start checkout, modify billing, submit applications, send messages,
    crawl providers, or launch paid inference.
