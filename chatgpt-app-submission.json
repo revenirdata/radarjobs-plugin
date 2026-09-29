@@ -3,7 +3,7 @@
   "schema_version": 1,
   "app_info": {
     "display_name": "RadarJobs",
-    "subtitle": "Find current tech jobs",
+    "subtitle": "Find tech jobs",
     "description": "RadarJobs connects to a user's existing account to search current U.S. technology jobs across ordinary W-2 employment and contract work, inspect one selected job, and review personalized recommendations. Results include normalized employment details, source evidence, freshness, the actual source posting, and a separate RadarJobs detail link.",
     "category": "PRODUCTIVITY"
   },

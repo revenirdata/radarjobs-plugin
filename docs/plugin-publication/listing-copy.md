@@ -3,7 +3,7 @@
 | Field | Value |
 |---|---|
 | Name | RadarJobs |
-| Subtitle | Find current tech jobs |
+| Subtitle | Find tech jobs |
 | Developer | Revenir |
 | Version | 3.0.0 |
 | Category | Productivity |
