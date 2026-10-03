@@ -33,7 +33,7 @@ accept an account ID or credential.
 
 ## Distribution status
 
-Version 3.0.0 documents the authenticated all-tech three-tool contract. It must
+Version 1.0.2 documents the authenticated all-tech three-tool contract. It must
 not be represented as submitted, approved, or publicly listed until those portal
 steps actually occur.
 

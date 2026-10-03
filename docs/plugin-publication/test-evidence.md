@@ -1,6 +1,6 @@
 # RadarJobs all-tech release evidence
 
-Date: September 27, 2026. Candidate version: 3.0.0.
+Date: September 27, 2026. Candidate version: 1.0.2.
 
 ## Source validation
 
