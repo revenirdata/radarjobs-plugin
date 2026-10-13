@@ -4,7 +4,7 @@
   "app_info": {
     "display_name": "RadarJobs",
     "subtitle": "Find tech jobs",
-    "description": "RadarJobs connects to a user's existing account to search current U.S. technology jobs across ordinary W-2 employment and contract work, inspect one selected job, and review personalized recommendations. Results include normalized employment details, source evidence, freshness, the actual source posting, and a separate RadarJobs detail link.",
+    "description": "RadarJobs connects to a user's existing account to search current U.S. technology jobs, manage named search workspaces shared with RadarJobs on the web, inspect one selected job, and review personalized recommendations. Results include normalized employment details, source evidence, freshness, the actual source posting, and a separate RadarJobs detail link.",
     "category": "PRODUCTIVITY"
   },
   "tools": {
@@ -30,6 +30,38 @@
         "read_only_justification": "Retrieves one eligible opportunity but records bounded operational usage telemetry for the connected account.",
         "open_world_justification": "Reads one bounded RadarJobs record and returns its stored provider source-posting URL plus the fixed-origin RadarJobs detail URL.",
         "destructive_justification": "Does not save, apply to, update, or remove the selected job."
+      }
+    },
+    "create_job_search": {
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Creates one named search workspace in the connected RadarJobs account.",
+        "open_world_justification": "Stores only user-supplied search constraints inside RadarJobs and returns a fixed-origin RadarJobs management URL.",
+        "destructive_justification": "Does not submit applications, contact employers, send alerts, or change billing."
+      }
+    },
+    "list_job_searches": {
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Reads the connected account's named search workspaces but records bounded operational usage telemetry.",
+        "open_world_justification": "Only accesses search criteria already stored within the authenticated RadarJobs account.",
+        "destructive_justification": "Does not alter a workspace or any job, application, alert, or subscription."
+      }
+    },
+    "run_job_search": {
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Runs existing saved criteria and records bounded last-run and result-count state.",
+        "open_world_justification": "Queries bounded RadarJobs inventory and returns stored provider source-posting URLs plus fixed-origin RadarJobs detail URLs.",
+        "destructive_justification": "Does not apply, message, purchase, or send an alert."
+      }
+    },
+    "update_job_search": {
+      "annotations": {"readOnlyHint": false, "openWorldHint": false, "destructiveHint": false},
+      "justifications": {
+        "read_only_justification": "Updates the name, filters, or active state of one user-selected RadarJobs search workspace.",
+        "open_world_justification": "Stores only user-supplied search constraints inside the connected RadarJobs account.",
+        "destructive_justification": "Pause and resume are reversible; the tool does not delete searches, jobs, applications, or account data."
       }
     }
   },
@@ -72,6 +104,30 @@
       "file_attachment_urls": null,
       "tools_triggered": "search_tech_jobs",
       "expected_output": "Calls search once, reports the complete exact-match result, and asks which one constraint the user wants to broaden without invoking another tool.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Create a named search workspace shared with RadarJobs on the web.",
+      "user_prompt": "Save a search called Remote data engineering for remote U.S. data engineer jobs posted in the last three days.",
+      "file_attachment_urls": null,
+      "tools_triggered": "create_job_search",
+      "expected_output": "Creates one active named workspace with the exact stated role, remote, country, and freshness constraints and returns its RadarJobs management link.",
+      "expected_output_url": null
+    },
+    {
+      "description": "List and run an existing named search workspace.",
+      "user_prompt": "Show my saved RadarJobs searches and run Remote data engineering.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list_job_searches, run_job_search",
+      "expected_output": "Lists account-owned workspaces, identifies the requested active workspace, and returns up to five current jobs using its exact saved constraints.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Pause one identified workspace without changing its filters.",
+      "user_prompt": "Pause my Remote data engineering search.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list_job_searches, update_job_search",
+      "expected_output": "Identifies the named workspace and changes only its state to paused.",
       "expected_output_url": null
     }
   ],

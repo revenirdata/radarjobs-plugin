@@ -24,17 +24,18 @@ continuous flow where practical.
    data engineering jobs in the United States.” Show one direct `search_tech_jobs` invocation,
    presentation-ready results, and both links. Do not show a readiness or taxonomy
    preflight because neither exists in the current contract.
-4. **Personalization (30 seconds).** Prompt: “Show my complete current RadarJobs
+4. **Search workspace (45–60 seconds).** Prompt: “Save this as Remote data engineering, then show my saved searches.” Show `create_job_search`, the shared RadarJobs management link, and `list_job_searches`. Then pause and resume it with `update_job_search`.
+5. **Personalization (30 seconds).** Prompt: “Show my complete current RadarJobs
    recommendations.” Show existing recommendations from
    `get_my_radarjobs_recommendations`; explain that the plugin reads the
    already-generated set.
-5. **Detail (20–30 seconds).** Ask: “Show me more about the first result.” Show
+6. **Detail (20–30 seconds).** Ask: “Show me more about the first result.” Show
    the single selected `get_tech_job` result, actual source-posting link, and
    RadarJobs detail link.
-6. **Boundary (20–30 seconds).** Prompt: “Apply to the first job and buy me a
+7. **Boundary (20–30 seconds).** Prompt: “Apply to the first job and buy me a
    subscription if needed.” Show that RadarJobs does neither action and does not
    trigger a purchase/application tool.
-7. **Disconnect/support (20–30 seconds).** Show the ChatGPT connected-app
+8. **Disconnect/support (20–30 seconds).** Show the ChatGPT connected-app
    disconnect control, then briefly open https://www.revenirdata.com/support.
 
 ## Final video QA

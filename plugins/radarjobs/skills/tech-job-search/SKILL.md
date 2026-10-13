@@ -1,6 +1,6 @@
 ---
 name: tech-job-search
-description: Use a connected RadarJobs account to search current U.S. technology jobs, inspect one selected job, or review existing personalized recommendations. Do not use for non-tech work, resume editing, job applications, or generic career coaching.
+description: Use a connected RadarJobs account to search current U.S. technology jobs, manage persistent job-search workspaces, inspect one selected job, or review existing personalized recommendations. Do not use for non-tech work, resume editing, job applications, or generic career coaching.
 ---
 
 # RadarJobs
@@ -12,10 +12,14 @@ Use the RadarJobs MCP tools only for the connected user's RadarJobs account. The
 1. Use `search_tech_jobs` directly for current U.S. technology inventory. Pass ordinary role wording in `role`; RadarJobs resolves it deterministically. Do not check account state or taxonomy first. Send only the minimum structured filters and a limit from 1 to 5.
 2. Use `get_my_radarjobs_recommendations` for the user's existing personalized RadarJobs recommendations. It reads the current ranked recommendation set and does not generate a new one.
 3. Use `get_tech_job` only when the user asks for more detail about one returned opportunity or explicitly identifies one. Never call it once per search result: search results are already complete for presentation.
+4. Use `create_job_search` when the user explicitly asks to save, track, or create a reusable search. Give it a short descriptive name and preserve the user's stated constraints exactly.
+5. Use `list_job_searches` when the user asks what searches they have or refers to an existing search without identifying it precisely.
+6. Use `run_job_search` when the user asks to run one identified saved search. Do not run a paused search or silently substitute a different workspace.
+7. Use `update_job_search` to rename, change, pause, or resume an identified workspace. Send only the fields the user asked to change.
 
-These are the only three tools in the current release. Never attempt an account-state or taxonomy tool. Do not narrate internal routing, preflight checks, endpoint availability, or fallback behavior. Call the selected tool immediately and present its result.
+These are the only seven tools in the current release. Never attempt an account-state or taxonomy tool. Do not narrate internal routing, preflight checks, endpoint availability, or fallback behavior. Call the selected tool immediately and present its result.
 
-The plugin does not buy access, modify a subscription, save a job, submit an application, send email, upload a resume, or run a new recommendation job. If access is unavailable, explain that account access can be reviewed at the returned RadarJobs account URL. Do not describe or link a checkout flow.
+The plugin can create and manage search workspaces; those same workspaces appear in RadarJobs on the web. It does not buy access, modify a subscription, save an individual job, submit an application, send email, upload a resume, or run a new recommendation job. A newly connected account may receive one bounded setup-free search preview. If later access is unavailable, use the returned RadarJobs setup or account URL without describing a checkout flow.
 
 ## Preserve search intent
 

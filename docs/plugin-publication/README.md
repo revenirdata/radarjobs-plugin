@@ -1,13 +1,9 @@
 # RadarJobs public submission package
 
-Candidate version: 1.0.2. Developer: Revenir.
+Candidate version: 1.0.3. Developer: Revenir.
 
 This directory is the review source of truth for the authenticated RadarJobs
-plugin. The plugin connects to one existing RadarJobs account through OAuth and
-exposes three bounded tools for U.S. technology-job search, existing recommendations,
-and eligible job detail. Search accepts ordinary role wording and returns
-presentation-ready results without readiness, taxonomy, or per-result detail
-preflights.
+plugin. The plugin connects to one existing RadarJobs account through OAuth and exposes seven bounded tools for U.S. technology-job search, durable cross-surface search workspaces, existing recommendations, and eligible job detail. Search accepts ordinary role wording and returns presentation-ready results without readiness, taxonomy, or per-result detail preflights.
 
 ## Portal values
 
@@ -37,7 +33,7 @@ The reviewer OAuth interaction remains part of the final portal test.
 verification. The images under `screenshots/` and `assets/`, the evidence under
 `history/`, and `scripts/build-historical-demo.py` document the earlier anonymous
 release. They are retained as explicitly labeled history and must not be uploaded
-as authenticated 1.0.2 interaction evidence. The reviewer demo must be recorded
+as authenticated 1.0.2 interaction evidence. The 1.0.3 reviewer demo must be recorded
 from the deployed authenticated production flow.
 
 ## Submission boundary

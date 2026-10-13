@@ -2,7 +2,7 @@
 
 ## Source and security
 
-- [x] Three tools inspected against their implementations.
+- [x] Seven tools inspected against their implementations.
 - [x] Every tool declares all three hints explicitly.
 - [x] Every tool declares an output schema.
 - [x] No tool input solicits credentials, payment details, resumes, or account IDs.
@@ -22,7 +22,7 @@
   recipients, retention, user controls, entitlement reuse, and capability limits.
 - [x] Dedicated customer-support page implemented at `/support`.
 - [x] Reviewer demo storyboard and exact prompts prepared.
-- [x] Exactly five positive and three negative submission tests prepared.
+- [ ] Search Workspace positive cases added and reverified against deployed 1.0.3.
 - [x] Production v3 MCP transport, OAuth metadata/challenge, and support URL deployed and live-verified.
 - [ ] Reviewer account created with usable access and no MFA/email/SMS challenge.
 - [ ] Demo video recorded against deployed production and checked for secrets/PII.
