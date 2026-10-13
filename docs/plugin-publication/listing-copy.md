@@ -5,7 +5,7 @@
 | Name | RadarJobs |
 | Subtitle | Find tech jobs |
 | Developer | Revenir |
-| Version | 1.0.2 |
+| Version | 1.0.3 |
 | Category | Productivity |
 | Website | https://www.revenirdata.com/radar/jobs |
 | Support | https://www.revenirdata.com/support |
@@ -16,10 +16,7 @@
 
 ## Description
 
-Connect your RadarJobs account to search current U.S. technology jobs across
-ordinary W-2 employment and contract work, inspect a selected job, and review your personalized
-recommendations. Search accepts ordinary role wording and returns presentation-ready
-results with both the actual source posting and RadarJobs detail links.
+Connect your RadarJobs account to search current U.S. technology jobs, build named search workspaces that stay in sync with RadarJobs on the web, inspect a selected job, and review personalized recommendations. Search accepts ordinary role wording and returns presentation-ready results with both the actual source posting and RadarJobs detail links.
 
 RadarJobs does not submit applications, save jobs, upload resumes, sell access,
 start checkout, or change subscriptions in ChatGPT. Search supports documented
@@ -28,10 +25,7 @@ worldwide eligibility, and unknown compensation or eligibility remains unknown.
 
 ## Account and access
 
-Connection uses the existing RadarJobs identity and membership. A user without an
-account can create one in the adjacent Revenir authorization flow, then return to
-approve the connection. Search requires existing active paid-equivalent access.
-An eligible exploration account can read its current personalized preview.
+Connection uses the existing RadarJobs identity and membership. A user without an account can create one in the adjacent Revenir authorization flow, then return to approve the connection. A newly connected account can run one bounded setup-free search preview. Continued search uses the account's existing active paid-equivalent access. An eligible exploration account can read its current personalized preview.
 Account status responses link neutrally to the RadarJobs account page; they do
 not advertise plans or link directly to checkout.
 
@@ -41,9 +35,9 @@ not advertise plans or link directly to checkout.
   five results.
 - Read existing personalized recommendations; no recommendation generation.
 - Inspect an eligible opportunity by UUID.
+- Create, list, run, refine, pause, and resume named search workspaces shared with RadarJobs on the web.
 
-No job application, saved-job mutation, alert mutation, resume processing,
-billing, subscription, email, crawling, or new model inference is exposed.
+No job application, saved-job mutation, email delivery, resume processing, billing, subscription, crawling, or new recommendation inference is exposed.
 
 ## Commerce answer
 
@@ -55,6 +49,4 @@ separately asks about the developer's business model.
 
 ## Release notes
 
-Expanded RadarJobs from contract-only search to current U.S. technology jobs while preserving deep contract filters, with three bounded tools, S256 PKCE,
-opaque rotating tokens, revocation, shared account entitlements, personalized
-recommendation reads, and no in-chat commerce.
+Added durable Search Workspaces shared by ChatGPT and RadarJobs on the web, plus one bounded setup-free first search. The release preserves deep contract filters, S256 PKCE, opaque rotating tokens, revocation, shared account entitlements, personalized recommendation reads, and no in-chat commerce.

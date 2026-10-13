@@ -1,5 +1,7 @@
 # RadarJobs all-tech release evidence
 
+The 1.0.3 Search Workspace candidate adds four tools and requires fresh deployed OAuth and interaction evidence after release. The evidence below is retained as the verified 1.0.2 baseline and is not presented as proof of the new tools.
+
 Date: September 27, 2026. Candidate version: 1.0.2.
 
 ## Source validation

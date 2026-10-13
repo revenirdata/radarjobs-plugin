@@ -14,14 +14,16 @@ upload, or new recommendation generation in ChatGPT.
   filters and at most five presentation-ready results.
 - `get_my_radarjobs_recommendations`: read the existing personalized set.
 - `get_tech_job`: inspect an eligible opportunity.
+- `create_job_search`: save a named search workspace shared with RadarJobs on the web.
+- `list_job_searches`: list the connected account's search workspaces.
+- `run_job_search`: run one active workspace with its exact saved constraints.
+- `update_job_search`: rename, refine, pause, or resume a workspace.
 
 Search accepts ordinary role wording directly. It does not require an account
 state or taxonomy preflight, and its result already includes the fields and links
 needed for presentation. Clients must not call detail once per search result.
 
-Search covers ordinary W-2 employment and documented 1099, C2C, and W-2 contract arrangements. Unknown
-compensation stays unknown. Remote does not guarantee worldwide eligibility.
-Closest matching may relax only the title and reports that relaxation.
+Search covers ordinary W-2 employment and documented 1099, C2C, and W-2 contract arrangements. A newly connected account can run one bounded search preview before setup. Unknown compensation stays unknown. Remote does not guarantee worldwide eligibility. Closest matching may relax only the title and reports that relaxation.
 
 ## Connection
 
@@ -33,9 +35,7 @@ accept an account ID or credential.
 
 ## Distribution status
 
-Version 1.0.2 documents the authenticated all-tech three-tool contract. It must
-not be represented as submitted, approved, or publicly listed until those portal
-steps actually occur.
+Version 1.0.3 is the source candidate for the seven-tool Search Workspace contract. The currently published 1.0.2 listing remains the public version until the updated review and portal steps actually occur.
 
 [Privacy](https://www.revenirdata.com/privacy) ·
 [Terms](https://www.revenirdata.com/terms) ·
